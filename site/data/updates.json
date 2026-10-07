@@ -8,9 +8,53 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-07T17:25:44.042408+00:00",
-  "lastSuccessfulCheckAt": "2026-10-07T17:25:44.042408+00:00",
+  "checkedAt": "2026-10-07T21:03:52.175395+00:00",
+  "lastSuccessfulCheckAt": "2026-10-07T21:03:52.175395+00:00",
   "posts": [
+    {
+      "id": "2107913674593644711",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "day": 3,
+      "subDay": null,
+      "kind": "reset",
+      "title": "4,000 万活跃用户，发放一次储备重置",
+      "summary": "Tibo 表示第 3 天的重头戏是 ChatGPT 中的 GPT-6；同时 Codex 与 ChatGPT Work 活跃用户创下 4,000 万新高，正在向所有人的付费账号载入一次储备的重置。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T21:02:38Z",
+      "publishedAt": "2026-10-07T19:19:17.000Z",
+      "originalText": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+      "quotedText": "Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to improve the experience.",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107913674593644711"
+      ],
+      "titleEn": "40M active users, and a banked reset",
+      "summaryEn": "Tibo says the big one for Day 3 is GPT-6 in ChatGPT; Codex and ChatGPT Work also hit a new high of 40M active users, and a banked reset is being loaded into everyone's paid accounts."
+    },
+    {
+      "id": "2107912709715132482",
+      "url": "https://x.com/thsottiaux/status/2107912709715132482",
+      "day": 3,
+      "subDay": null,
+      "kind": "update",
+      "title": "新版 GPT-6 面向所有 ChatGPT 用户推出",
+      "summary": "新版 GPT-6 与 Intelligent UI 向所有 ChatGPT 用户推出，回答更可视、可交互，并能当场提供适合任务的交互式工具。Tibo 称这背后是大量模型与基础设施改进，以扩展到 12 亿用户。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T21:02:38Z",
+      "publishedAt": "2026-10-07T19:15:27.000Z",
+      "originalText": "We're going beyond text and are releasing a new version of GPT-6 to all users in ChatGPT. Lots of model and infra improvements coming together here to scale it to 1.2B users!",
+      "quotedText": "GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone.\n\nIntelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. https://t.co/XL2gDCPBwG",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107912709715132482",
+        "https://x.com/OpenAI/status/2107894997538525580"
+      ],
+      "titleEn": "A new version of GPT-6 rolls out to all ChatGPT users",
+      "summaryEn": "A new version of GPT-6 and Intelligent UI are rolling out to all ChatGPT users, with more visual, interactive answers and on-the-spot interactive tools for the task. Tibo says many model and infrastructure improvements came together to scale it to 1.2B users.",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "815d420320ec597944455838541a30faeb18770adbd82367676d2558a552b45f"
+    },
     {
       "id": "2107676072871600470",
       "url": "https://x.com/thsottiaux/status/2107676072871600470",
@@ -193,6 +237,16 @@
       "verified": true,
       "titleEn": "Day 2 · Four updates and a usage reset",
       "summaryEn": "Free Auto-review, simplified API tiers, Meetings and the Decisions API public beta, followed by a usage reset."
+    },
+    {
+      "day": 3,
+      "title": "Day 3 · 新版 GPT-6 进入 ChatGPT，加一次储备重置",
+      "summary": "新版 GPT-6 与 Intelligent UI 向所有 ChatGPT 用户推出；Codex 与 ChatGPT Work 活跃用户达 4,000 万新高，所有付费账号载入一次储备重置。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2107913674593644711",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2107912709715132482",
+      "verified": true,
+      "titleEn": "Day 3 · New GPT-6 in ChatGPT, plus a banked reset",
+      "summaryEn": "A new version of GPT-6 and Intelligent UI roll out to all ChatGPT users; Codex and ChatGPT Work hit 40M active users, and a banked reset is loaded into all paid accounts."
     }
   ],
   "candidates": [],
@@ -201,9 +255,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-07T17:20:56.189Z",
-      "checkedAt": "2026-10-07T17:25:44.042408+00:00",
-      "lastSuccessAt": "2026-10-07T17:25:44.042408+00:00",
+      "sourceFetchedAt": "2026-10-07T21:01:06.753Z",
+      "checkedAt": "2026-10-07T21:03:52.175395+00:00",
+      "lastSuccessAt": "2026-10-07T21:03:52.175395+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -211,16 +265,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-07T17:25:44.042408+00:00",
-      "lastSuccessAt": "2026-10-07T17:25:44.042408+00:00"
+      "checkedAt": "2026-10-07T21:03:52.175395+00:00",
+      "lastSuccessAt": "2026-10-07T21:03:52.175395+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-07T17:25:44.042408+00:00",
-      "lastSuccessAt": "2026-10-07T17:25:44.042408+00:00"
+      "checkedAt": "2026-10-07T21:03:52.175395+00:00",
+      "lastSuccessAt": "2026-10-07T21:03:52.175395+00:00"
     }
   },
   "campaignFinished": false
