@@ -1,0 +1,67 @@
+name: Refresh tracker and deploy Pages
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['site/data/updates.json', 'README.md']
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: tibo-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check archive boundary
+        id: gate
+        run: |
+          python3 - <<'PY'
+          import datetime,json,os
+          from pathlib import Path
+          data=json.loads(Path('site/data/updates.json').read_text())
+          end=datetime.datetime.fromisoformat(data['campaign']['stopAfter'].replace('Z','+00:00'))
+          archived=datetime.datetime.now(datetime.timezone.utc)>=end and data.get('campaignFinished')
+          run=os.environ['GITHUB_EVENT_NAME']!='schedule' or not archived
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write('run='+str(bool(run)).lower()+'\n')
+          PY
+      - name: Test data boundaries
+        if: steps.gate.outputs.run == 'true'
+        run: python3 -m unittest discover -s tests -v
+      - name: Refresh public sources
+        if: steps.gate.outputs.run == 'true'
+        run: python3 scripts/refresh.py
+      - name: Validate public bundle
+        if: steps.gate.outputs.run == 'true'
+        run: python3 scripts/validate.py
+      - name: Save data snapshot
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/updates.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public campaign snapshot [skip ci]'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+        if: steps.gate.outputs.run == 'true'
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          path: site
+      - name: Deploy
+        id: deployment
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/deploy-pages@v4

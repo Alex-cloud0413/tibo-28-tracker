@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tibo 28 天更新追踪 · 温尚Alex</title>
+  <meta name="description" content="跟踪 Tibo 的 28 天更新：Codex、ChatGPT Work、额度重置与中文报道。每两小时检查，保留原帖与核对状态。">
+  <meta property="og:title" content="28 天，记录每一次更新。"><meta property="og:description" content="Tibo 更新追踪 · 原帖、中文摘要、每日汇总。温尚Alex 独立整理。">
+  <meta property="og:type" content="website"><meta name="theme-color" content="#f4f1e9">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css"><script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#timeline">跳到更新列表</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Tibo 28 天更新追踪首页"><span class="mark">28<span>↗</span></span><span>TIBO / 28 DAYS<small>温尚Alex · 更新观察</small></span></a>
+    <nav aria-label="主要导航"><a href="#timeline">更新记录</a><a href="#about">关于追踪</a><a href="https://alex-cloud0413.github.io/" target="_blank" rel="noopener noreferrer">个人主页 ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> THE 28-DAY SHIPPING LOG <span class="edition">OCT—NOV 2026</span></p>
+        <h1 id="hero-title"><span class="hero-number">28</span> 天。<br>记录每一次<span class="accent">更新。</span></h1>
+        <p class="intro">每天一项明确的改进，或一次使用额度重置。<br>跟着 Tibo 的原帖，看 Codex 与 ChatGPT Work 如何变化。</p>
+        <div class="hero-links"><a class="button" href="#timeline">查看最新动态 <span>↘</span></a><a class="quiet-link" href="https://x.com/thsottiaux/status/2106845241357824205" target="_blank" rel="noopener noreferrer">28 天承诺原帖 ↗</a></div>
+      </div>
+      <aside class="calendar" aria-label="28 天追踪进度"><div class="calendar-top"><span>THE CHALLENGE</span><span id="campaign-phase">28 天更新计划</span></div><div class="calendar-title"><strong id="current-day">—</strong><span>/ 28 <small>挑战日 · 太平洋时间</small></span></div><div id="day-grid" class="day-grid"></div><div class="calendar-key"><span><i class="recorded-key"></i>已有记录</span><span><i class="today-key"></i>进行中</span><span id="record-through">正在读取</span></div></aside>
+    </section>
+    <section class="status-strip wrap" aria-label="数据状态"><div class="freshness"><span class="dot" id="health-dot"></span><div><strong id="health-label">正在读取更新记录</strong><small id="last-check">每 2 小时检查一次</small></div></div><div class="stat"><b id="update-count">—</b><span>项更新</span></div><div class="stat"><b id="reset-count">—</b><span>次重置</span></div><div class="stat"><b id="article-count">—</b><span>篇中文报道</span></div><button class="refresh" id="refresh" type="button">刷新页面数据 ↻</button></section>
+    <section class="content wrap" id="timeline" aria-labelledby="timeline-heading">
+      <div class="section-top"><div><p class="eyebrow">THE UPDATES</p><h2 id="timeline-heading">每一天，都有新进展。</h2></div><label class="timezone-label">时间显示<select id="timezone"><option value="Asia/Shanghai">北京时间</option><option value="America/Los_Angeles">太平洋时间</option></select></label></div>
+      <div class="toolbar"><div class="filters" role="group" aria-label="筛选更新"><button data-filter="all" aria-pressed="true">全部动态</button><button data-filter="update" aria-pressed="false">功能更新</button><button data-filter="reset" aria-pressed="false">额度重置</button><button data-filter="article" aria-pressed="false">中文报道</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索更新、产品或关键词" aria-label="搜索更新"></label></div>
+      <div class="active-day" id="active-day" hidden><span></span><button id="clear-day">查看所有日期 ×</button></div>
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+      <div id="updates"><p class="empty">正在加载更新记录…</p></div>
+      <noscript><p class="empty">需要启用 JavaScript 才能使用筛选。也可直接查看 <a href="./data/updates.json">公开数据</a> 或 <a href="https://x.com/thsottiaux">Tibo 原帖</a>。</p></noscript>
+    </section>
+    <section class="about wrap" id="about"><div><p class="eyebrow">ABOUT THIS LOG</p><h2>追踪进展，<br>也保留出处。</h2><p class="byline">由 <a href="https://alex-cloud0413.github.io/">温尚Alex ↗</a> 独立整理</p></div><div class="about-copy"><p>这里记录 Tibo 于 2026 年 10 月发起的 28 天更新计划。每条动态保留 X 原帖，中文摘要在核对原文后补充；同一天的更新按原帖 Day 编号归组。</p><p>网站每两小时检查公开追踪源。自动收录内容会明确标注；来源失效时保留上次数据并显示状态。刷新按钮读取网站现有数据，不会触发新的 X 抓取。</p><p>本网站与 OpenAI 无隶属关系。这里记录的是公告中的重置信息，不代表个人账号的实时可用额度。</p><details><summary>数据来源与运行状态</summary><ul id="source-list"></ul><div id="candidates"></div><p>计划周期：2026.10.05—11.01（太平洋时间）。结束后留补漏窗口，随后转为只读存档。</p></details></div></section>
+  </main>
+  <footer class="wrap"><span>TIBO / 28 DAYS <small>一个持续更新的观察记录。</small></span><a href="https://github.com/Alex-cloud0413/tibo-28-tracker" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#">回到顶部 ↑</a></footer>
+</body></html>

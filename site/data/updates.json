@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "campaign": {
+    "title": "Tibo 28 天更新追踪",
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-01",
+    "timezone": "America/Los_Angeles",
+    "stopAfter": "2026-11-02T16:00:00Z",
+    "intervalHours": 2
+  },
+  "checkedAt": "2026-10-07T08:26:41.379663+00:00",
+  "lastSuccessfulCheckAt": "2026-10-07T08:26:41.379663+00:00",
+  "posts": [
+    {
+      "id": "2107676072871600470",
+      "url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "day": 2,
+      "subDay": null,
+      "kind": "reset",
+      "title": "四项更新之后，额度也重置了",
+      "summary": "Tibo 在当日投票后宣布使用额度重置已完成。原帖没有列出具体套餐范围或重置窗口。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T08:00:00Z",
+      "publishedAt": "2026-10-07T03:35:09.000000Z",
+      "originalText": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment. Therefore ... the reset has been processed. Enjoy!",
+      "quotedText": "Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to improve the experience.",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107676072871600470"
+      ],
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "3389f5ef87d3ff66fcf264dc1de63c6520dcbe3738a5ae445dd80af658a6dd43"
+    },
+    {
+      "id": "2107574912349303197",
+      "url": "https://x.com/thsottiaux/status/2107574912349303197",
+      "day": 2,
+      "subDay": 4,
+      "kind": "update",
+      "title": "Decisions API 开放公测",
+      "summary": "近乎实时地选择模型、工具或操作。官方称，决策速度最高可达通过 Responses API 使用 GPT-6 Luna 的 10 倍。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T08:00:00Z",
+      "publishedAt": "2026-10-06T20:53:10.000000Z",
+      "originalText": "Day 2.4/ Decisions API is live. We will use this ourselves to improve the experience for everyone in many fun ways. Realtime general classifier does open some great possibilities.",
+      "quotedText": "Let your app choose the right model, tool, or action in near real-time with Decisions API, now available to all developers in public beta. The Decisions API makes decisions up to 10x faster than GPT-6 Luna through the Responses API. https://t.co/zhgRVzJ3aP",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107574912349303197",
+        "https://x.com/OpenAIDevs/status/2107573382229188645"
+      ],
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "580d99d6ee291cefe3d06f087f2b7e86989f3f6f363f82f1afcd5135b95b9a97"
+    },
+    {
+      "id": "2107573405553938664",
+      "url": "https://x.com/thsottiaux/status/2107573405553938664",
+      "day": 2,
+      "subDay": 3,
+      "kind": "update",
+      "title": "Meetings：会议结束，工作接着往前",
+      "summary": "记录会议，结合已有工作生成个性化摘要与下一步事项，保存到 ChatGPT Space。macOS 桌面版 Pro / Business 已开放测试，Enterprise 即将支持。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T08:00:00Z",
+      "publishedAt": "2026-10-06T20:47:00Z",
+      "originalText": "Day 2.3/\n\nNever worry about remembering what you were saying with that colleague. Just talk your heart out and build up the context to load up into codex to get it all done.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107573405553938664",
+        "https://x.com/ChatGPT/status/2107567930557026653"
+      ],
+      "timePrecision": "minute",
+      "discoveredVia": [
+        "codex_resets"
+      ]
+    },
+    {
+      "id": "2107548725359104441",
+      "url": "https://x.com/thsottiaux/status/2107548725359104441",
+      "day": 2,
+      "subDay": 2,
+      "kind": "update",
+      "title": "API 付费等级，五档变三档",
+      "summary": "付费使用等级简化为 Build、Launch 和 Grow。最高等级 Grow 的累计 API 付款门槛从 1,000 美元降至 500 美元。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T08:00:00Z",
+      "publishedAt": "2026-10-06T19:09:07.000000Z",
+      "originalText": "Day 2.2/ OK this one is smaller, but we removed some friction for when building on the API. Happy building.",
+      "quotedText": "We’re making it easier to qualify for higher OpenAI API rate limits. Five paid usage tiers become three: Build, Launch, and Grow. You can qualify for Grow, our new highest tier, with $500 in total API payments—down from $1,000 for the previous highest tier. https://t.co/FGZ8mppEJa",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107548725359104441",
+        "https://x.com/OpenAIDevs/status/2107539647392096384"
+      ],
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "9e3c79bfc88c93c2ff6b7f1510b9ea06797487af8479c79b6495f1ddba145f50"
+    },
+    {
+      "id": "2107368734981517634",
+      "url": "https://x.com/thsottiaux/status/2107368734981517634",
+      "day": 2,
+      "subDay": 1,
+      "kind": "update",
+      "title": "Auto-review 免费，不再占用套餐额度",
+      "summary": "通过 ChatGPT 账号登录的用户可免费使用自动审核。权限菜单中的名称为「Approve for me」；Default permissions 本身不等同于开启自动审核。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T08:00:00Z",
+      "publishedAt": "2026-10-06T07:13:54.000000Z",
+      "originalText": "Day 2.1/ We have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules. It allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent. This Auto-review feature is now free and does not draw usage from your plan.",
+      "quotedText": "Day 1/ We have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...). No changes needed on your end and this should be felt within the next two hours.",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107368734981517634",
+        "https://x.com/thsottiaux/status/2107504197012988007"
+      ],
+      "articleUrl": "https://mp.weixin.qq.com/s/6ILtj2-0zDHfKZj0BizTsg",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "7f29a0d9b0e3f3f63c3e66b223b572547d8ea5d03b3df0c02a6fc1afbfe31053"
+    },
+    {
+      "id": "2107158998495748264",
+      "url": "https://x.com/thsottiaux/status/2107158998495748264",
+      "day": 1,
+      "subDay": null,
+      "kind": "update",
+      "title": "默认速度提升约 50%",
+      "summary": "GPT-6 Astra 和 GPT-6.1 Sol 的默认速度提升约 50%，覆盖订阅内的产品，以及通过 ChatGPT 登录的合作伙伴。用户无需更改设置。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T08:00:00Z",
+      "publishedAt": "2026-10-05T17:20:29.000000Z",
+      "originalText": "Day 1/ We have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...). No changes needed on your end and this should be felt within the next two hours.",
+      "quotedText": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
+      "sources": [
+        "https://x.com/thsottiaux/status/2107158998495748264"
+      ],
+      "articleUrl": "https://mp.weixin.qq.com/s/gzGGcZkJzSC963jBtEt-_Q",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "c6ac75827f9cb4bb6b0b98346fea7993193ac24f2cf9a304f3ed4cde6a5d8f62"
+    },
+    {
+      "id": "2106845241357824205",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "day": 0,
+      "subDay": null,
+      "kind": "announcement",
+      "title": "28 天，每天一项改进，或一次额度重置",
+      "summary": "未来 28 天，每天推出一项对多数 Codex / Work 用户有帮助的明确改进，或者重置使用额度。",
+      "verified": true,
+      "verifiedAt": "2026-10-07T08:00:00Z",
+      "publishedAt": "2026-10-04T20:33:00Z",
+      "originalText": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2106845241357824205"
+      ],
+      "articleUrl": "https://mp.weixin.qq.com/s/0MkqRqEk8RDOd-RtXrAgXA",
+      "timePrecision": "minute",
+      "discoveredVia": [
+        "codex_resets",
+        "resetalerts"
+      ]
+    }
+  ],
+  "roundups": [
+    {
+      "day": 2,
+      "title": "Day 2 · 四项更新，加一次额度重置",
+      "summary": "Auto-review 免费、API 等级简化、Meetings 会议记录、Decisions API 公测；随后追加一次使用额度重置。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2107575657014468879",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2107676072871600470",
+      "verified": true
+    }
+  ],
+  "candidates": [],
+  "sources": {
+    "tibo_live": {
+      "ok": true,
+      "name": "Tibo 28 Day Live",
+      "url": "https://www.tibo-28day.live/api/live",
+      "sourceFetchedAt": "2026-10-07T08:20:47.237Z",
+      "checkedAt": "2026-10-07T08:26:41.379663+00:00",
+      "lastSuccessAt": "2026-10-07T08:26:41.379663+00:00",
+      "stale": false
+    },
+    "codex_resets": {
+      "ok": true,
+      "name": "Codex Resets",
+      "url": "https://codex-resets.com/zh-CN/tibo-28",
+      "sourceFetchedAt": null,
+      "checkedAt": "2026-10-07T08:26:41.379663+00:00",
+      "lastSuccessAt": "2026-10-07T08:26:41.379663+00:00"
+    },
+    "resetalerts": {
+      "ok": true,
+      "name": "Reset Alerts",
+      "url": "https://resetalerts.com/codex-28-day-challenge",
+      "sourceFetchedAt": null,
+      "checkedAt": "2026-10-07T08:26:41.379663+00:00",
+      "lastSuccessAt": "2026-10-07T08:26:41.379663+00:00"
+    }
+  },
+  "campaignFinished": false
+}
