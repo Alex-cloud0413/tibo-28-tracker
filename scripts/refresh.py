@@ -67,6 +67,8 @@ def parse(label, raw):
             except (ValueError, TypeError, KeyError):
                 continue
             rows.append({'id': tid, 'text': text(item['text']), 'quote': text(item.get('quote')), 'at': item['at']})
+        if not rows:
+            raise ValueError('empty_or_unreadable_feed')
         return rows, payload.get('fetched_at')
     ids = sorted({i for i in ID_RE.findall(raw.replace('\\/', '/')) if int(i) >= FIRST_ID})
     if not ids:
@@ -101,6 +103,8 @@ def merge(curated, previous, responses, now):
         old = previous.get('sources', {}).get(key, {})
         status = {k: v for k, v in result.items() if k != 'rows'}
         status.update(checkedAt=current, lastSuccessAt=current if result['ok'] else old.get('lastSuccessAt'))
+        if key == 'tibo_live' and result['ok'] and not status.get('sourceFetchedAt'):
+            status['freshnessUnknown'] = True
         if status.get('sourceFetchedAt'):
             try:
                 age = (now - stamp(status['sourceFetchedAt'])).total_seconds()

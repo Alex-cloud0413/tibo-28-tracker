@@ -55,13 +55,13 @@ function renderCalendar() {
 function renderHealth() {
   const data = state.data, sources = Object.values(data.sources || {});
   const age = data.checkedAt ? (Date.now() - Date.parse(data.checkedAt)) / 3600000 : Infinity;
-  const healthy = sources.filter(s => s.ok && !s.stale).length;
+  const healthy = sources.filter(s => s.ok && !s.stale && !s.freshnessUnknown).length;
   const archived = data.campaignFinished === true;
   let label = "已载入核对记录，等待首次自动检查";
   if (archived) label = "28 天追踪已归档";
   else if (sources.length && healthy === 0) label = "来源暂不可用 · 保留已有记录";
   else if (age > 4 && sources.length) label = "检查已延迟 · 当前显示历史记录";
-  else if (sources.length && healthy < sources.length) label = "部分来源延迟 · 其余来源可用";
+  else if (sources.length && healthy < sources.length) label = "部分来源状态待核对 · 其余来源可用";
   else if (sources.length) label = "定时追踪中 · 每 2 小时检查";
   $("#health-label").textContent = label;
   $("#health-dot").style.background = archived ? "#6d7167" : healthy && age < 4 ? "#668066" : "#ac4e35";
@@ -72,7 +72,7 @@ function renderHealth() {
   const sourceList = $("#source-list"); sourceList.replaceChildren();
   for (const source of sources) {
     const row = el("li"); row.append(link(source.name, source.url));
-    row.append(document.createTextNode(` · ${!source.ok ? "本次读取失败" : source.stale ? "来源数据延迟" : "可用"}${source.lastSuccessAt ? ` · 上次成功 ${formatTime(source.lastSuccessAt)}` : ""}`));
+    row.append(document.createTextNode(` · ${!source.ok ? "本次读取失败" : source.stale ? "来源数据延迟" : source.freshnessUnknown ? "可读，来源更新时间未知" : "可用"}${source.lastSuccessAt ? ` · 上次成功 ${formatTime(source.lastSuccessAt)}` : ""}`));
     sourceList.append(row);
   }
   const candidates = $("#candidates"); candidates.replaceChildren();

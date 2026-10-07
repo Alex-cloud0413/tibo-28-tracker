@@ -50,5 +50,7 @@ class RefreshTests(unittest.TestCase):
         self.assertTrue(result['sources']['tibo_live']['stale'])
     def test_gate_page_not_empty_success(self):
         with self.assertRaises(ValueError):r.parse('resetalerts','<html>Please sign in</html>')
+    def test_empty_primary_feed_is_not_success(self):
+        with self.assertRaises(ValueError):r.parse('tibo_live','{"tibo_tweets": []}')
 
 if __name__=='__main__':unittest.main()
