@@ -36,7 +36,7 @@ nav a:hover, .quiet-link:hover { color: var(--accent); }
 h1 { font-size: clamp(37px, 4.5vw, 62px); font-weight: 650; line-height: 1.12; letter-spacing: -.055em; margin: 0; }
 .title-period { color: var(--green); }
 .quiet-link { display: inline-flex; align-items: center; gap: 26px; min-height: 44px; margin-top: 26px; font-size: 12px; text-decoration: none; }
-.quiet-link span { font-size: 18px; color: var(--accent); }
+.quiet-link > span[aria-hidden] { font-size: 18px; color: var(--accent); }
 .calendar { min-width: 0; padding-left: 32px; border-left: 1px solid var(--line); }
 .calendar-top { display: flex; justify-content: space-between; gap: 10px; font-size: 10px; font-weight: 600; letter-spacing: .04em; }
 #campaign-phase { color: var(--muted); font-weight: 400; }
@@ -203,3 +203,25 @@ footer a { display: inline-flex; align-items: center; min-height: 32px; text-dec
   .footer-divider { margin-inline: 6px; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }
+/* Language control shares the report navigation's restrained underline. */
+.header-tools { margin-left: auto; display: flex; align-items: center; gap: 26px; }
+.header-tools .author { margin-left: 0; }
+.language-switch { display: flex; align-items: center; gap: 5px; }
+.language-switch button { position: relative; min-width: 32px; min-height: 36px; padding: 6px 3px; border: 0; background: transparent; color: var(--muted); font-size: 11px; }
+.language-switch button[aria-pressed=true] { color: var(--ink); font-weight: 600; }
+.language-switch button[aria-pressed=true]::after { content: ""; position: absolute; bottom: 3px; left: 3px; right: 3px; height: 2px; background: var(--green); }
+html[lang="en"] h1 { font-size: clamp(34px, 4.2vw, 56px); letter-spacing: -.045em; }
+html[lang="en"] .calendar-key { gap: 12px; }
+@media(max-width:760px) {
+  .site-header { gap: 20px; }
+  .header-tools { gap: 12px; }
+  html[lang="en"] h1 { font-size: clamp(31px, 8vw, 48px); }
+  html[lang="en"] .calendar-key { font-size: 9px; gap: 10px; }
+  html[lang="en"] .filters { gap: 10px; }
+  html[lang="en"] .filters button { font-size: 11px; }
+  html[lang="en"] .day-aside time { font-size: 9px; }
+}
+@media(max-width:480px) {
+  .site-header { gap: 14px; }
+  .site-header nav a[href="#about"] { display: none; }
+}

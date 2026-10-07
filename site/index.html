@@ -11,52 +11,53 @@
   <meta name="theme-color" content="#f5f5f7">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
+  <script defer src="./i18n.js"></script>
   <script defer src="./app.js"></script>
 </head>
 <body>
-  <a class="skip" href="#timeline">跳到更新列表</a>
+  <a class="skip" href="#timeline" data-i18n="skip">跳到更新列表</a>
   <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="Tibo 28 天更新追踪首页">Tibo<span> / 28</span></a>
-    <nav aria-label="主要导航"><a class="nav-current" href="#timeline">更新记录</a><a href="#about">来源</a></nav>
-    <span class="author">Alex</span>
+    <a class="brand" href="./" data-i18n-label="home" aria-label="Tibo 28 天更新追踪首页">Tibo<span> / 28</span></a>
+    <nav data-i18n-label="nav" aria-label="主要导航"><a class="nav-current" href="#timeline" data-i18n="updates">更新记录</a><a href="#about" data-i18n="sources">来源</a></nav>
+    <div class="header-tools"><span class="author">Alex</span><div class="language-switch" role="group" aria-label="页面语言" data-i18n-label="language"><button type="button" data-lang="zh" lang="zh-CN" aria-label="中文" aria-pressed="true">中文</button><button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div></div>
   </header>
   <main>
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow">OCT 05 — NOV 01, 2026</p>
-        <h1 id="hero-title">Tibo.<br>28 天更新追踪<span class="title-period">.</span></h1>
-        <a class="quiet-link" href="https://x.com/thsottiaux/status/2106845241357824205" target="_blank" rel="noopener noreferrer">计划原帖 <span aria-hidden="true">↗</span></a>
+        <h1 id="hero-title">Tibo.<br><span data-i18n="heading">28 天更新追踪</span><span class="title-period">.</span></h1>
+        <a class="quiet-link" href="https://x.com/thsottiaux/status/2106845241357824205" target="_blank" rel="noopener noreferrer"><span data-i18n="planPost">计划原帖</span> <span aria-hidden="true">↗</span></a>
       </div>
-      <aside class="calendar" aria-label="28 天追踪进度">
+      <aside class="calendar" data-i18n-label="progress" aria-label="28 天追踪进度">
         <div class="calendar-top"><span>28-DAY LOG</span><span id="campaign-phase">28 天更新计划</span></div>
-        <div class="calendar-title"><span class="day-label">DAY</span><strong id="current-day">—</strong><span class="day-denominator">/ 28</span><small>太平洋时间</small></div>
+        <div class="calendar-title"><span class="day-label">DAY</span><strong id="current-day">—</strong><span class="day-denominator">/ 28</span><small data-i18n="pacific">太平洋时间</small></div>
         <div id="day-grid" class="day-grid"></div>
-        <div class="calendar-key"><span><i class="recorded-key"></i>已有记录</span><span><i class="today-key"></i>当前日</span><span id="record-through">正在读取</span></div>
+        <div class="calendar-key"><span><i class="recorded-key"></i><span data-i18n="recorded">已有记录</span></span><span><i class="today-key"></i><span data-i18n="currentDay">当前日</span></span><span id="record-through">正在读取</span></div>
       </aside>
     </section>
-    <section class="status-strip wrap" aria-label="数据状态">
+    <section class="status-strip wrap" data-i18n-label="dataStatus" aria-label="数据状态">
       <div class="freshness"><span class="dot" id="health-dot"></span><div><strong id="health-label">正在读取</strong><small id="last-check">每 2 小时检查一次</small></div></div>
-      <div class="stat"><b id="update-count">—</b><span>项更新</span></div>
-      <div class="stat"><b id="reset-count">—</b><span>次重置</span></div>
-      <div class="stat"><b id="article-count">—</b><span>篇报道</span></div>
-      <button class="refresh" id="refresh" type="button" aria-label="刷新网站已保存的数据">刷新 <span aria-hidden="true">↻</span></button>
+      <div class="stat"><b id="update-count">—</b><span data-i18n="updateUnit">项更新</span></div>
+      <div class="stat"><b id="reset-count">—</b><span data-i18n="resetUnit">次重置</span></div>
+      <div class="stat"><b id="article-count">—</b><span data-i18n="articleUnit">篇报道</span></div>
+      <button class="refresh" id="refresh" type="button" data-i18n-label="refreshLabel" aria-label="刷新网站已保存的数据">刷新 <span aria-hidden="true">↻</span></button>
     </section>
     <section class="content wrap" id="timeline" aria-labelledby="timeline-heading">
-      <div class="section-top"><h2 id="timeline-heading">更新记录</h2><label class="timezone-label"><span class="sr-only">时间显示</span><select id="timezone"><option value="Asia/Shanghai">北京时间</option><option value="America/Los_Angeles">太平洋时间</option></select></label></div>
+      <div class="section-top"><h2 id="timeline-heading" data-i18n="updates">更新记录</h2><label class="timezone-label"><span class="sr-only" data-i18n="timezone">时间显示</span><select id="timezone"><option value="Asia/Shanghai" data-i18n="beijing">北京时间</option><option value="America/Los_Angeles" data-i18n="pacific">太平洋时间</option></select></label></div>
       <div class="toolbar">
-        <div class="filters" role="group" aria-label="筛选更新"><button data-filter="all" aria-pressed="true">全部</button><button data-filter="update" aria-pressed="false">功能更新</button><button data-filter="reset" aria-pressed="false">额度重置</button><button data-filter="article" aria-pressed="false">中文报道</button></div>
-        <label class="search"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.4"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.4"/></svg><input id="search" type="search" placeholder="搜索更新" aria-label="搜索更新"></label>
+        <div class="filters" role="group" data-i18n-label="filters" aria-label="筛选更新"><button data-filter="all" data-i18n="all" aria-pressed="true">全部</button><button data-filter="update" data-i18n="features" aria-pressed="false">功能更新</button><button data-filter="reset" data-i18n="resets" aria-pressed="false">额度重置</button><button data-filter="article" data-i18n="articles" aria-pressed="false">中文报道</button></div>
+        <label class="search"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.4"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.4"/></svg><input id="search" type="search" data-i18n-label="search" data-i18n-placeholder="search" placeholder="搜索更新" aria-label="搜索更新"></label>
       </div>
-      <div class="active-day" id="active-day" hidden><span></span><button id="clear-day">所有日期 ×</button></div>
+      <div class="active-day" id="active-day" hidden><span></span><button id="clear-day" data-i18n="allDates">所有日期 ×</button></div>
       <p id="result-count" class="result-count" aria-live="polite"></p>
       <div id="updates"><p class="empty">正在加载更新记录…</p></div>
       <noscript><p class="empty">启用 JavaScript 查看更新，或直接查看 <a href="./data/updates.json">公开数据</a>。</p></noscript>
     </section>
     <section class="about wrap" id="about" aria-labelledby="about-heading">
-      <div><h2 id="about-heading">来源</h2><p class="byline">整理 / Alex</p></div>
-      <div class="about-copy"><p>按原帖 Day 编号归组。自动收录与原帖核对状态分别标注。</p><details><summary>数据来源与运行状态</summary><ul id="source-list"></ul><div id="candidates"></div><p>每 2 小时检查公开追踪源。刷新仅读取网站已保存的数据。</p><p>2026.10.05—11.01 · 太平洋时间</p></details><p class="disclaimer">独立追踪，与 OpenAI 无隶属关系。重置公告不代表个人账号的实时额度。</p></div>
+      <div><h2 id="about-heading" data-i18n="sources">来源</h2><p class="byline" data-i18n="byline">整理 / Alex</p></div>
+      <div class="about-copy"><p data-i18n="grouping">按原帖 Day 编号归组。自动收录与原帖核对状态分别标注。</p><details><summary data-i18n="sourceStatus">数据来源与运行状态</summary><ul id="source-list"></ul><div id="candidates"></div><p data-i18n="refreshNote">每 2 小时检查公开追踪源。刷新仅读取网站已保存的数据。</p><p data-i18n="period">2026.10.05—11.01 · 太平洋时间</p></details><p class="disclaimer" data-i18n="disclaimer">独立追踪，与 OpenAI 无隶属关系。重置公告不代表个人账号的实时额度。</p></div>
     </section>
   </main>
-  <footer class="wrap"><span>Alex <span class="footer-divider">/</span> Tibo 28 Days</span><a href="https://github.com/Alex-cloud0413/tibo-28-tracker" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#">顶部 ↑</a></footer>
+  <footer class="wrap"><span>Alex <span class="footer-divider">/</span> Tibo 28 Days</span><a href="https://github.com/Alex-cloud0413/tibo-28-tracker" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#" data-i18n="top">顶部 ↑</a></footer>
 </body>
 </html>

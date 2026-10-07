@@ -31,7 +31,9 @@
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "3389f5ef87d3ff66fcf264dc1de63c6520dcbe3738a5ae445dd80af658a6dd43"
+      "mirrorFingerprint": "3389f5ef87d3ff66fcf264dc1de63c6520dcbe3738a5ae445dd80af658a6dd43",
+      "titleEn": "Four updates, followed by a usage reset",
+      "summaryEn": "After the day’s community vote, Tibo confirmed that the usage reset had been processed. The post did not specify eligible plans or which usage windows were reset."
     },
     {
       "id": "2107574912349303197",
@@ -54,7 +56,9 @@
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "580d99d6ee291cefe3d06f087f2b7e86989f3f6f363f82f1afcd5135b95b9a97"
+      "mirrorFingerprint": "580d99d6ee291cefe3d06f087f2b7e86989f3f6f363f82f1afcd5135b95b9a97",
+      "titleEn": "Decisions API enters public beta",
+      "summaryEn": "Choose a model, tool or action in near real time. OpenAI says decisions can be up to 10× faster than GPT-6 Luna through the Responses API."
     },
     {
       "id": "2107573405553938664",
@@ -76,7 +80,9 @@
       "timePrecision": "minute",
       "discoveredVia": [
         "codex_resets"
-      ]
+      ],
+      "titleEn": "Meetings: turn conversations into next steps",
+      "summaryEn": "Record meetings and use existing work context to create personalized summaries and next steps, saved in ChatGPT Space. The macOS desktop beta is available for Pro and Business, with Enterprise support coming later."
     },
     {
       "id": "2107548725359104441",
@@ -99,7 +105,9 @@
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "9e3c79bfc88c93c2ff6b7f1510b9ea06797487af8479c79b6495f1ddba145f50"
+      "mirrorFingerprint": "9e3c79bfc88c93c2ff6b7f1510b9ea06797487af8479c79b6495f1ddba145f50",
+      "titleEn": "Five paid API tiers become three",
+      "summaryEn": "Paid usage tiers are simplified to Build, Launch and Grow. Qualifying for Grow, the highest tier, now requires $500 in total API payments, down from $1,000."
     },
     {
       "id": "2107368734981517634",
@@ -123,7 +131,9 @@
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "7f29a0d9b0e3f3f63c3e66b223b572547d8ea5d03b3df0c02a6fc1afbfe31053"
+      "mirrorFingerprint": "7f29a0d9b0e3f3f63c3e66b223b572547d8ea5d03b3df0c02a6fc1afbfe31053",
+      "titleEn": "Auto-review is free, with no plan usage deducted",
+      "summaryEn": "Auto-review is free for users signed in with a ChatGPT account. It appears as “Approve for me” in the permissions menu; Default permissions alone does not enable it."
     },
     {
       "id": "2107158998495748264",
@@ -146,7 +156,9 @@
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "c6ac75827f9cb4bb6b0b98346fea7993193ac24f2cf9a304f3ed4cde6a5d8f62"
+      "mirrorFingerprint": "c6ac75827f9cb4bb6b0b98346fea7993193ac24f2cf9a304f3ed4cde6a5d8f62",
+      "titleEn": "Default speed increased by about 50%",
+      "summaryEn": "GPT-6 Astra and GPT-6.1 Sol are about 50% faster by default across subscription products and partners using Sign in with ChatGPT. No settings changes are needed."
     },
     {
       "id": "2106845241357824205",
@@ -169,7 +181,9 @@
       "discoveredVia": [
         "codex_resets",
         "resetalerts"
-      ]
+      ],
+      "titleEn": "28 days: an improvement or a usage reset each day",
+      "summaryEn": "For the next 28 days, each day will bring a clear improvement relevant to most Codex / Work users, or a reset of usage allowances."
     }
   ],
   "roundups": [
@@ -179,7 +193,9 @@
       "summary": "Auto-review 免费、API 等级简化、Meetings 会议记录、Decisions API 公测；随后追加一次使用额度重置。",
       "sourceUrl": "https://x.com/thsottiaux/status/2107575657014468879",
       "additionalSourceUrl": "https://x.com/thsottiaux/status/2107676072871600470",
-      "verified": true
+      "verified": true,
+      "titleEn": "Day 2 · Four updates and a usage reset",
+      "summaryEn": "Free Auto-review, simplified API tiers, Meetings and the Decisions API public beta, followed by a usage reset."
     }
   ],
   "candidates": [],

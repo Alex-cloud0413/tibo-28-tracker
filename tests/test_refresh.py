@@ -41,6 +41,8 @@ class RefreshTests(unittest.TestCase):
         result=r.merge(self.curated,{'posts':[old]},{'tibo_live':{'ok':True,'rows':[changed]}},NOW)
         p=next(x for x in result['posts'] if x['id']==original['id'])
         self.assertEqual(p['summary'],original['summary']);self.assertTrue(p['sourceChanged'])
+        self.assertEqual(p['titleEn'],original['titleEn'])
+        self.assertEqual(p['summaryEn'],original['summaryEn'])
     def test_backup_link_alone_is_only_a_candidate(self):
         result=r.merge(self.curated,{}, {'backup':{'ok':True,'rows':[{'id':self.row['id']}]}},NOW)
         self.assertIn(self.row['id'],[p['id'] for p in result['candidates']])
