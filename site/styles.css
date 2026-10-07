@@ -106,7 +106,6 @@ select { min-height: 38px; padding: 8px 10px; background: transparent; border: 1
 .post-links { display: flex; flex-wrap: wrap; gap: 6px 20px; }
 .post-links a { display: inline-flex; align-items: center; min-height: 28px; font-size: 11px; text-decoration: none; }
 .post-links a:hover { text-decoration: underline; }
-.post-links .article-link { color: var(--accent); }
 details { color: var(--muted); font-size: 11px; margin-top: 10px; }
 summary { cursor: pointer; width: fit-content; line-height: 2; }
 details[open] summary { margin-bottom: 10px; }

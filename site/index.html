@@ -39,13 +39,12 @@
       <div class="freshness"><span class="dot" id="health-dot"></span><div><strong id="health-label">正在读取</strong><small id="last-check">每 2 小时检查一次</small></div></div>
       <div class="stat"><b id="update-count">—</b><span data-i18n="updateUnit">项更新</span></div>
       <div class="stat"><b id="reset-count">—</b><span data-i18n="resetUnit">次重置</span></div>
-      <div class="stat"><b id="article-count">—</b><span data-i18n="articleUnit">篇报道</span></div>
       <button class="refresh" id="refresh" type="button" data-i18n-label="refreshLabel" aria-label="刷新网站已保存的数据">刷新 <span aria-hidden="true">↻</span></button>
     </section>
     <section class="content wrap" id="timeline" aria-labelledby="timeline-heading">
       <div class="section-top"><h2 id="timeline-heading" data-i18n="updates">更新记录</h2><label class="timezone-label"><span class="sr-only" data-i18n="timezone">时间显示</span><select id="timezone"><option value="Asia/Shanghai" data-i18n="beijing">北京时间</option><option value="America/Los_Angeles" data-i18n="pacific">太平洋时间</option></select></label></div>
       <div class="toolbar">
-        <div class="filters" role="group" data-i18n-label="filters" aria-label="筛选更新"><button data-filter="all" data-i18n="all" aria-pressed="true">全部</button><button data-filter="update" data-i18n="features" aria-pressed="false">功能更新</button><button data-filter="reset" data-i18n="resets" aria-pressed="false">额度重置</button><button data-filter="article" data-i18n="articles" aria-pressed="false">中文报道</button></div>
+        <div class="filters" role="group" data-i18n-label="filters" aria-label="筛选更新"><button data-filter="all" data-i18n="all" aria-pressed="true">全部</button><button data-filter="update" data-i18n="features" aria-pressed="false">功能更新</button><button data-filter="reset" data-i18n="resets" aria-pressed="false">额度重置</button></div>
         <label class="search"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.4"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.4"/></svg><input id="search" type="search" data-i18n-label="search" data-i18n-placeholder="search" placeholder="搜索更新" aria-label="搜索更新"></label>
       </div>
       <div class="active-day" id="active-day" hidden><span></span><button id="clear-day" data-i18n="allDates">所有日期 ×</button></div>

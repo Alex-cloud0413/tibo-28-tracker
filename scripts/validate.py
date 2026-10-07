@@ -16,9 +16,10 @@ for p in data['posts']:
     assert p['url'] == 'https://x.com/thsottiaux/status/' + p['id']
     assert isinstance(p['verified'], bool)
     if p.get('publishedAt'): datetime.fromisoformat(p['publishedAt'].replace('Z', '+00:00'))
-    for url in p.get('sources', []) + ([p['articleUrl']] if p.get('articleUrl') else []):
+    assert 'articleUrl' not in p
+    for url in p.get('sources', []):
         u=urlparse(url)
-        assert u.scheme=='https' and u.hostname in ('x.com','mp.weixin.qq.com','alignment.openai.com')
+        assert u.scheme=='https' and u.hostname in ('x.com','alignment.openai.com')
 for f in (ROOT/'site').rglob('*'):
     if f.is_file() and f.suffix in ('.html','.js','.css','.json'):
         body=f.read_text()

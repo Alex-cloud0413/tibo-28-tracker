@@ -1,6 +1,6 @@
 # Tibo / 28 Days
 
-Alex 的独立更新追踪站。记录 Tibo 的 28 天更新、额度重置与中文报道。
+Alex 的独立更新追踪站。记录 Tibo 的 28 天更新与额度重置。
 
 - 网站：https://alex-cloud0413.github.io/tibo-28-tracker/
 - 原帖：https://x.com/thsottiaux
@@ -22,7 +22,7 @@ python3 -m http.server 8792 --directory site
 
 页首可切换中文 / English，默认中文，并在浏览器本地记住选择。切换保留搜索、筛选、日期、时区和已展开的原文；搜索同时覆盖中英文内容。
 
-`site/i18n.js` 管理界面文案。经核对的更新和每日汇总在 `curated.json` 中同时维护 `title` / `summary`（中文）及 `titleEn` / `summaryEn`（英文）；更正时同步两种语言。自动收录但尚未整理的记录在英文模式显示原帖与待核对状态，不调用外部翻译服务。公众号链接标明为中文内容。
+`site/i18n.js` 管理界面文案。经核对的更新和每日汇总在 `curated.json` 中同时维护 `title` / `summary`（中文）及 `titleEn` / `summaryEn`（英文）；更正时同步两种语言。自动收录但尚未整理的记录在英文模式显示原帖与待核对状态，不调用外部翻译服务。
 
 语言检查：`node --test tests/test_i18n.cjs`。
 
@@ -33,7 +33,7 @@ python3 -m http.server 8792 --directory site
 - `scripts/refresh.py`：交叉读取三个公开追踪源。仅收录 Tibo 的 Day 更新和明确已完成的额度重置。追踪站只有链接、没有正文的内容进入待核对线索，不计入更新数。
 - 自动发现不等于原帖核实。自动条目展示英文内容与待核对标记。核对原帖后将完整记录加入 `curated.json`，保留 post ID、原文时间与来源。中文摘要不会被追踪源自动改写。
 - 用 post ID 去重，语义指纹排除点赞等互动数据；原文变化会标记待复核。来源故障时保留历史数据。Day 编号优先于北京时间日期。
-- 已公开公众号链接来自作者提供。本站不复制未发布的图片包，也不替作者操作公众号发布。
+- 网站仅展示更新记录与原始来源，不展示报道栏目、报道计数或公众号图文链接。
 
 公开来源：[Tibo 28 Day Live](https://www.tibo-28day.live/#tracker)、[Codex Resets](https://codex-resets.com/zh-CN/tibo-28)、[Reset Alerts](https://resetalerts.com/codex-28-day-challenge)。原帖属于 Tibo / OpenAI 等原作者，本站与 OpenAI 无隶属关系。
 

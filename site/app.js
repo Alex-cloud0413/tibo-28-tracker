@@ -89,8 +89,7 @@ function renderHealth() {
   $("#last-check").textContent = data.checkedAt ? t("lastCheck", {time: formatTime(data.checkedAt), zone: t(state.zone === "Asia/Shanghai" ? "beijing" : "pacific")}) : t("initialSnapshot");
   $("#update-count").textContent = data.posts.filter(p => p.kind === "update").length;
   $("#reset-count").textContent = data.posts.filter(p => p.kind === "reset").length;
-  $("#article-count").textContent = data.posts.filter(p => p.articleUrl).length;
-  for (const [id, key] of [["update-count", "updateUnit"], ["reset-count", "resetUnit"], ["article-count", "articleUnit"]]) {
+  for (const [id, key] of [["update-count", "updateUnit"], ["reset-count", "resetUnit"]]) {
     document.querySelector(`[data-i18n="${key}"]`).textContent = t(key + ($("#" + id).textContent === "1" ? "One" : ""));
   }
   const sourceList = $("#source-list"); sourceList.replaceChildren();
@@ -121,7 +120,6 @@ function renderPost(post) {
   article.append(meta, content);
   const links = el("div", "post-links"); links.append(link(t("originalLink"), post.url));
   if (post.sources?.[1]) links.append(link(t("productLink"), post.sources[1]));
-  if (post.articleUrl) links.append(link(t("articleLink"), post.articleUrl, "article-link"));
   copy.append(links);
   if (post.originalText) {
     const details = el("details"); details.append(el("summary", "", post.verified ? t("expandOriginal") : t("expandMirror")));
@@ -141,7 +139,7 @@ function renderUpdates() {
   const query = state.query.toLocaleLowerCase();
   const posts = [...state.data.posts].filter(p =>
     (state.day === null || p.day === state.day) &&
-    (state.filter === "all" || (state.filter === "article" ? !!p.articleUrl : p.kind === state.filter)) &&
+    (state.filter === "all" || p.kind === state.filter) &&
     (!query || [p.title, p.summary, p.titleEn, p.summaryEn, p.originalText, p.quotedText, postLabel(p)].join(" ").toLocaleLowerCase().includes(query))
   ).sort((a, b) => b.day - a.day || (b.publishedAt || "").localeCompare(a.publishedAt || ""));
   $("#result-count").textContent = `${recordCount(posts.length)} · ${t("newest")}`;

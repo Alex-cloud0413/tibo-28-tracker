@@ -143,6 +143,9 @@ def merge(curated, previous, responses, now):
                 candidates.pop(tid, None)
             elif 'text' not in row:
                 candidates.setdefault(tid, {'id': tid, 'url': f'https://x.com/thsottiaux/status/{tid}', 'firstSeenAt': current})
+    # Retire publication links even when migrating an older saved snapshot.
+    for post in posts.values():
+        post.pop('articleUrl', None)
     return {'schemaVersion': 1, 'campaign': campaign, 'checkedAt': current,
         'lastSuccessfulCheckAt': current if any(x['ok'] for x in responses.values()) else previous.get('lastSuccessfulCheckAt'),
         'posts': sorted(posts.values(), key=lambda p: (p['day'], p.get('publishedAt') or '', int(p['id'])), reverse=True),
