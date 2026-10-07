@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "projectId": "tibo-28-tracker",
+  "title": "Tibo 28 天更新追踪",
+  "github": {"repo": "Alex-cloud0413/tibo-28-tracker", "branch": "main", "visibility": "public"},
+  "website": "https://alex-cloud0413.github.io/tibo-28-tracker/",
+  "feishu": {"status": "not_applicable", "reason": "This static site has no large private media or online document master."},
+  "storage": {
+    "git": ["site code", "public campaign data", "curated public summaries", "tests", "deployment workflow"],
+    "drive": [],
+    "rebuildableLocal": ["preview server", "browser screenshots", "Python caches"]
+  },
+  "privateDataPolicy": "Do not copy private content ledgers, credentials, unpublished images or device state into this repository.",
+  "recovery": "Clone this repository; run tests and serve the site directory. GitHub Pages workflow is included."
+}
