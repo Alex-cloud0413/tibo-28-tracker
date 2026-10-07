@@ -1,9 +1,8 @@
 # Tibo / 28 Days
 
-温尚Alex 的独立更新追踪站。记录 Tibo 的 28 天更新、额度重置与中文报道。
+Alex 的独立更新追踪站。记录 Tibo 的 28 天更新、额度重置与中文报道。
 
 - 网站：https://alex-cloud0413.github.io/tibo-28-tracker/
-- 个人主页：https://alex-cloud0413.github.io/
 - 原帖：https://x.com/thsottiaux
 
 纯静态 HTML / CSS / JavaScript，部署到 GitHub Pages。数据抓取使用 Python 3.11+ 标准库和系统 curl，没有付费 API、模型调用或浏览器登录凭据。

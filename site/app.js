@@ -64,7 +64,7 @@ function renderHealth() {
   else if (sources.length && healthy < sources.length) label = "部分来源状态待核对 · 其余来源可用";
   else if (sources.length) label = "定时追踪中 · 每 2 小时检查";
   $("#health-label").textContent = label;
-  $("#health-dot").style.background = archived ? "#6d7167" : healthy && age < 4 ? "#668066" : "#ac4e35";
+  $("#health-dot").style.background = archived ? "var(--muted)" : healthy && age < 4 ? "var(--green)" : "var(--warning)";
   $("#last-check").textContent = data.checkedAt ? `最近检查 ${formatTime(data.checkedAt)} · ${state.zone === "Asia/Shanghai" ? "北京时间" : "太平洋时间"}` : "当前为已核对的初始记录";
   $("#update-count").textContent = data.posts.filter(p => p.kind === "update").length;
   $("#reset-count").textContent = data.posts.filter(p => p.kind === "reset").length;
@@ -89,17 +89,20 @@ function renderPost(post) {
   meta.append(el("span", `tag ${post.kind === "reset" ? "reset-tag" : ""}`, post.kind === "reset" ? "额度重置" : post.kind === "announcement" ? "计划公告" : postLabel(post)));
   meta.append(el("span", "", post.sourceChanged ? "原文有变化 · 待复核" : post.verified ? "原帖已核对" : "自动收录 · 待核对"));
   const time = el("time", "", formatTime(post.publishedAt)); if (post.publishedAt) time.dateTime = post.publishedAt; meta.append(time);
-  article.append(meta, el("h3", "", post.title), el("p", "post-summary", post.summary));
+  const content = el("div", "post-content"), copy = el("div", "post-copy");
+  copy.append(el("p", "post-summary", post.summary));
+  content.append(el("h3", "", post.title), copy);
+  article.append(meta, content);
   const links = el("div", "post-links"); links.append(link("查看 X 原帖 ↗", post.url));
   if (post.sources?.[1]) links.append(link("产品公告 ↗", post.sources[1]));
   if (post.articleUrl) links.append(link("阅读公众号图文 ↗", post.articleUrl, "article-link"));
-  article.append(links);
+  copy.append(links);
   if (post.originalText) {
     const details = el("details"); details.append(el("summary", "", post.verified ? "展开英文原文" : "展开追踪源收录的英文内容"));
     details.append(el("div", "original", post.originalText));
     if (post.quotedText) details.append(el("div", "original quote", "引用帖\n" + post.quotedText));
     if (!post.verified) details.append(el("p", "notice", "以上文字来自公开追踪源，请以 X 原帖为准。"));
-    article.append(details);
+    copy.append(details);
   }
   if (post.sourceChanged) article.append(el("p", "notice", "追踪源中的文字发生变化，现有中文摘要尚待重新核对。"));
   return article;
@@ -114,7 +117,7 @@ function renderUpdates() {
     (state.filter === "all" || (state.filter === "article" ? !!p.articleUrl : p.kind === state.filter)) &&
     (!query || [p.title, p.summary, p.originalText, p.quotedText, postLabel(p)].join(" ").toLocaleLowerCase().includes(query))
   ).sort((a, b) => b.day - a.day || (b.publishedAt || "").localeCompare(a.publishedAt || ""));
-  $("#result-count").textContent = `${posts.length} 条记录 · 最新在前 · 按原帖 Day 编号归组`;
+  $("#result-count").textContent = `${posts.length} 条记录 · 最新在前`;
   const root = $("#updates"); root.replaceChildren();
   if (!posts.length) {
     const empty = el("div", "empty", "没有找到符合条件的更新。"); const reset = el("button", "", "清除筛选");
@@ -154,9 +157,9 @@ async function load() {
     state.data = data; render();
   } catch {
     $("#health-label").textContent = state.data ? "刷新失败 · 保留当前页面记录" : "数据暂时无法加载";
-    $("#health-dot").style.background = "#ac4e35";
+    $("#health-dot").style.background = "var(--warning)";
     if (!state.data) { const empty = el("p", "empty", "暂时无法读取记录，请稍后刷新。也可以直接查看 "); empty.append(link("Tibo 的 X 主页 ↗", "https://x.com/thsottiaux")); $("#updates").replaceChildren(empty); }
-  } finally { state.loading = false; $("#refresh").disabled = false; $("#refresh").textContent = "刷新页面数据 ↻"; }
+  } finally { state.loading = false; $("#refresh").disabled = false; $("#refresh").textContent = "刷新 ↻"; }
 }
 document.querySelectorAll("[data-filter]").forEach(b => b.addEventListener("click", () => { state.filter = b.dataset.filter; if (state.data) renderUpdates(); }));
 $("#search").addEventListener("input", e => { state.query = e.target.value.trim(); if (state.data) renderUpdates(); });
