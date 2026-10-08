@@ -8,9 +8,31 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-08T13:28:10.022333+00:00",
-  "lastSuccessfulCheckAt": "2026-10-08T13:28:10.022333+00:00",
+  "checkedAt": "2026-10-08T19:56:50.033582+00:00",
+  "lastSuccessfulCheckAt": "2026-10-08T19:56:50.033582+00:00",
   "posts": [
+    {
+      "id": "2108275041276420573",
+      "url": "https://x.com/thsottiaux/status/2108275041276420573",
+      "day": 4,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 4 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-10-08T19:15:14.000000Z",
+      "originalText": "Day 4/ We have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort. Also releasing GPT-6.1 Sol ultrafast. The two work very well together.",
+      "quotedText": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come. https://t.co/Cyy9k2hifV",
+      "sources": [
+        "https://x.com/thsottiaux/status/2108275041276420573"
+      ],
+      "firstSeenAt": "2026-10-08T19:56:50.033582+00:00",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "1d74490700e3faf731cdedbd9629f98d176e80e425bd584de2d21d8d73708fc3"
+    },
     {
       "id": "2108084615349170480",
       "url": "https://x.com/thsottiaux/status/2108084615349170480",
@@ -290,9 +312,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-08T13:21:17.921Z",
-      "checkedAt": "2026-10-08T13:28:10.022333+00:00",
-      "lastSuccessAt": "2026-10-08T13:28:10.022333+00:00",
+      "sourceFetchedAt": "2026-10-08T19:51:19.556Z",
+      "checkedAt": "2026-10-08T19:56:50.033582+00:00",
+      "lastSuccessAt": "2026-10-08T19:56:50.033582+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -300,16 +322,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-08T13:28:10.022333+00:00",
-      "lastSuccessAt": "2026-10-08T13:28:10.022333+00:00"
+      "checkedAt": "2026-10-08T19:56:50.033582+00:00",
+      "lastSuccessAt": "2026-10-08T19:56:50.033582+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-08T13:28:10.022333+00:00",
-      "lastSuccessAt": "2026-10-08T13:28:10.022333+00:00"
+      "checkedAt": "2026-10-08T19:56:50.033582+00:00",
+      "lastSuccessAt": "2026-10-08T19:56:50.033582+00:00"
     }
   },
   "campaignFinished": false
