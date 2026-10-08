@@ -185,6 +185,26 @@
       ],
       "titleEn": "40M active users, and a banked reset",
       "summaryEn": "Tibo says the big one for Day 3 is GPT-6 in ChatGPT; Codex and ChatGPT Work also hit a new high of 40M active users, and a banked reset is being loaded into everyone's paid accounts."
+    },
+    {
+      "id": "2108084615349170480",
+      "url": "https://x.com/thsottiaux/status/2108084615349170480",
+      "day": 3,
+      "subDay": null,
+      "kind": "update",
+      "title": "Codex Cloud 悄悄重新上线",
+      "summary": "Tibo 在第 3 天加场中表示，团队悄悄重新上线了 Codex Cloud，现在相当不错。引用的 Tailscale 帖子介绍，Codex Cloud 现在可以通过 Tailscale 安全连接 tailnet 上的资源。",
+      "verified": true,
+      "verifiedAt": "2026-10-08T06:52:30Z",
+      "publishedAt": "2026-10-08T06:38:33.000Z",
+      "originalText": "Day 3 (encore)/\n\nWe silently re-shipped codex cloud. It’s pretty good now",
+      "quotedText": "Codex 🤝 Tailscale\n\nCodex Cloud can now securely connect to resources on your tailnet with Tailscale.\n\nUseful tools should be easy to build with, combine, and turn into something even more useful.\n\nSee how it works → \nhttps://t.co/0eFd37GmmO",
+      "sources": [
+        "https://x.com/thsottiaux/status/2108084615349170480",
+        "https://x.com/Tailscale/status/2107836671605551217"
+      ],
+      "titleEn": "Codex Cloud quietly re-shipped",
+      "summaryEn": "In a Day 3 encore, Tibo says the team silently re-shipped Codex Cloud and it is pretty good now. The quoted Tailscale post says Codex Cloud can now securely connect to resources on your tailnet with Tailscale."
     }
   ],
   "excludedIds": [
@@ -251,13 +271,13 @@
     },
     {
       "day": 3,
-      "title": "Day 3 · 新版 GPT-6 进入 ChatGPT，加一次储备重置",
-      "summary": "新版 GPT-6 与 Intelligent UI 向所有 ChatGPT 用户推出；Codex 与 ChatGPT Work 活跃用户达 4,000 万新高，所有付费账号载入一次储备重置。",
+      "title": "Day 3 · 新版 GPT-6 进入 ChatGPT、储备重置，加场 Codex Cloud",
+      "summary": "新版 GPT-6 与 Intelligent UI 向所有 ChatGPT 用户推出；Codex 与 ChatGPT Work 活跃用户达 4,000 万新高，所有付费账号载入一次储备重置；加场悄悄重新上线 Codex Cloud，可通过 Tailscale 连接 tailnet 资源。",
       "sourceUrl": "https://x.com/thsottiaux/status/2107913674593644711",
       "additionalSourceUrl": "https://x.com/thsottiaux/status/2107912709715132482",
       "verified": true,
-      "titleEn": "Day 3 · New GPT-6 in ChatGPT, plus a banked reset",
-      "summaryEn": "A new version of GPT-6 and Intelligent UI roll out to all ChatGPT users; Codex and ChatGPT Work hit 40M active users, and a banked reset is loaded into all paid accounts."
+      "titleEn": "Day 3 · New GPT-6 in ChatGPT, a banked reset, and an encore for Codex Cloud",
+      "summaryEn": "A new version of GPT-6 and Intelligent UI roll out to all ChatGPT users; Codex and ChatGPT Work hit 40M active users, and a banked reset is loaded into all paid accounts; an encore quietly re-ships Codex Cloud, which can now connect to tailnet resources via Tailscale."
     }
   ]
 }
