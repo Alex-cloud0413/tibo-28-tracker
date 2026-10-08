@@ -8,8 +8,8 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-07T23:04:53.201459+00:00",
-  "lastSuccessfulCheckAt": "2026-10-07T23:04:53.201459+00:00",
+  "checkedAt": "2026-10-08T06:02:41.730677+00:00",
+  "lastSuccessfulCheckAt": "2026-10-08T06:02:41.730677+00:00",
   "posts": [
     {
       "id": "2107913674593644711",
@@ -28,7 +28,11 @@
         "https://x.com/thsottiaux/status/2107913674593644711"
       ],
       "titleEn": "40M active users, and a banked reset",
-      "summaryEn": "Tibo says the big one for Day 3 is GPT-6 in ChatGPT; Codex and ChatGPT Work also hit a new high of 40M active users, and a banked reset is being loaded into everyone's paid accounts."
+      "summaryEn": "Tibo says the big one for Day 3 is GPT-6 in ChatGPT; Codex and ChatGPT Work also hit a new high of 40M active users, and a banked reset is being loaded into everyone's paid accounts.",
+      "discoveredVia": [
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "67b4e780113d0ec9e76ed22f42c92ec341ef5cc44fe9539b3731eb287d393182"
     },
     {
       "id": "2107912709715132482",
@@ -249,15 +253,21 @@
       "summaryEn": "A new version of GPT-6 and Intelligent UI roll out to all ChatGPT users; Codex and ChatGPT Work hit 40M active users, and a banked reset is loaded into all paid accounts."
     }
   ],
-  "candidates": [],
+  "candidates": [
+    {
+      "id": "2108040921044639779",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "firstSeenAt": "2026-10-08T06:02:41.730677+00:00"
+    }
+  ],
   "sources": {
     "tibo_live": {
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-07T23:01:11.691Z",
-      "checkedAt": "2026-10-07T23:04:53.201459+00:00",
-      "lastSuccessAt": "2026-10-07T23:04:53.201459+00:00",
+      "sourceFetchedAt": "2026-10-08T06:01:23.809Z",
+      "checkedAt": "2026-10-08T06:02:41.730677+00:00",
+      "lastSuccessAt": "2026-10-08T06:02:41.730677+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -265,16 +275,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-07T23:04:53.201459+00:00",
-      "lastSuccessAt": "2026-10-07T23:04:53.201459+00:00"
+      "checkedAt": "2026-10-08T06:02:41.730677+00:00",
+      "lastSuccessAt": "2026-10-08T06:02:41.730677+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-07T23:04:53.201459+00:00",
-      "lastSuccessAt": "2026-10-07T23:04:53.201459+00:00"
+      "checkedAt": "2026-10-08T06:02:41.730677+00:00",
+      "lastSuccessAt": "2026-10-08T06:02:41.730677+00:00"
     }
   },
   "campaignFinished": false
