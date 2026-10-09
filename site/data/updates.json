@@ -8,8 +8,8 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-09T17:10:57.884944+00:00",
-  "lastSuccessfulCheckAt": "2026-10-09T17:10:57.884944+00:00",
+  "checkedAt": "2026-10-09T19:00:52.283847+00:00",
+  "lastSuccessfulCheckAt": "2026-10-09T19:00:52.283847+00:00",
   "posts": [
     {
       "id": "2108275041276420573",
@@ -316,26 +316,26 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": null,
-      "checkedAt": "2026-10-09T17:10:57.884944+00:00",
-      "lastSuccessAt": "2026-10-09T17:10:57.884944+00:00",
-      "freshnessUnknown": true
+      "sourceFetchedAt": "2026-10-09T18:51:00.649Z",
+      "checkedAt": "2026-10-09T19:00:52.283847+00:00",
+      "lastSuccessAt": "2026-10-09T19:00:52.283847+00:00",
+      "stale": false
     },
     "codex_resets": {
       "ok": true,
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-09T17:10:57.884944+00:00",
-      "lastSuccessAt": "2026-10-09T17:10:57.884944+00:00"
+      "checkedAt": "2026-10-09T19:00:52.283847+00:00",
+      "lastSuccessAt": "2026-10-09T19:00:52.283847+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-09T17:10:57.884944+00:00",
-      "lastSuccessAt": "2026-10-09T17:10:57.884944+00:00"
+      "checkedAt": "2026-10-09T19:00:52.283847+00:00",
+      "lastSuccessAt": "2026-10-09T19:00:52.283847+00:00"
     }
   },
   "campaignFinished": false
