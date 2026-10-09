@@ -225,6 +225,46 @@
       ],
       "titleEn": "Instant steering and GPT-6.1 Sol ultrafast",
       "summaryEn": "Tibo says steering is now instant so the model reacts faster to adjustments and can course-correct in realtime; GPT-6.1 Sol ultrafast is also releasing. The quoted OpenAI Developers post says Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work, with near-Astra intelligence at up to 8x Sol Standard speed."
+    },
+    {
+      "id": "2108645667451318747",
+      "url": "https://x.com/thsottiaux/status/2108645667451318747",
+      "day": 5,
+      "subDay": null,
+      "kind": "update",
+      "title": "Composer predictions 进入桌面端 Codex",
+      "summary": "Tibo 表示桌面端 App 里的 Composer predictions 经常准得让人愣一下，已包含在 Pro 套餐里且不消耗用量。引用的 OpenAI Developers 帖子称该功能现已对 Pro 用户开放 beta：Codex 可根据对话和说话方式建议下一条消息。",
+      "verified": true,
+      "verifiedAt": "2026-10-09T20:56:07Z",
+      "publishedAt": "2026-10-09T19:47:58.000Z",
+      "originalText": "Day 5/\n\nComposer predictions in the desktop app. Often leads to a double take with how on point they are. Included in the Pro plans without consuming usage.",
+      "quotedText": "Now in beta: composer predictions in Codex for Pro users.\n\nCodex can now suggest your next message based on your conversation and how you talk to it.\n\nOne of the most loved new features we've ever tested internally. https://t.co/0u8d2a3feS",
+      "sources": [
+        "https://x.com/thsottiaux/status/2108645667451318747",
+        "https://x.com/OpenAIDevs/status/2108624138369929725"
+      ],
+      "titleEn": "Composer predictions in the Codex desktop app",
+      "summaryEn": "Tibo says composer predictions in the desktop app are often strikingly on point, included in Pro plans without consuming usage. The quoted OpenAI Developers post says the beta is out for Pro users: Codex can suggest your next message based on the conversation and how you talk to it."
+    },
+    {
+      "id": "2108646052178092403",
+      "url": "https://x.com/thsottiaux/status/2108646052178092403",
+      "day": 5,
+      "subDay": null,
+      "kind": "update",
+      "title": "dots 可在 ChatGPT 手机 App 创建使用",
+      "summary": "Tibo 表示现在可以完全在 ChatGPT 手机 App 里创建并和你的 dot 聊天；之前很多人是通过桌面端或网页版创建的。引用的 ChatGPT 官方帖称，现已可在 iOS 和 Android 的 ChatGPT App 里直接创建 dot。",
+      "verified": true,
+      "verifiedAt": "2026-10-09T20:56:07Z",
+      "publishedAt": "2026-10-09T19:49:30.000Z",
+      "originalText": "Day 5 (dots edition)/\n\nYou can now create and text your dot entirely from the ChatGPT mobile app. Impressed so many created them via the desktop/web app previously. Time to scale!",
+      "quotedText": "Fresh updates for dots.\n\nFirst up: you can now create your dot straight from your phone in the ChatGPT app on iOS and Android. https://t.co/ZHOqBx6tLI",
+      "sources": [
+        "https://x.com/thsottiaux/status/2108646052178092403",
+        "https://x.com/ChatGPT/status/2108636745915052037"
+      ],
+      "titleEn": "Create and text dots from the ChatGPT mobile app",
+      "summaryEn": "Tibo says you can now create and text your dot entirely from the ChatGPT mobile app; many people previously created them on desktop or web. The quoted ChatGPT post says you can create your dot from the ChatGPT app on iOS and Android."
     }
   ],
   "excludedIds": [
@@ -298,6 +338,16 @@
       "verified": true,
       "titleEn": "Day 3 · New GPT-6 in ChatGPT, a banked reset, and an encore for Codex Cloud",
       "summaryEn": "A new version of GPT-6 and Intelligent UI roll out to all ChatGPT users; Codex and ChatGPT Work hit 40M active users, and a banked reset is loaded into all paid accounts; an encore quietly re-ships Codex Cloud, which can now connect to tailnet resources via Tailscale."
+    },
+    {
+      "day": 5,
+      "title": "Day 5 · Composer predictions 与 dots 手机创建",
+      "summary": "桌面端 Codex 的 Composer predictions 对 Pro 用户开放 beta，不消耗用量；dots 现可完全在 ChatGPT 手机 App（iOS / Android）里创建并使用。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2108645667451318747",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2108646052178092403",
+      "verified": true,
+      "titleEn": "Day 5 · Composer predictions and mobile dots creation",
+      "summaryEn": "Composer predictions in the Codex desktop app enter beta for Pro users without consuming usage; dots can now be created and used entirely in the ChatGPT mobile app on iOS and Android."
     }
   ]
 }
