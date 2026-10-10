@@ -265,6 +265,25 @@
       ],
       "titleEn": "Create and text dots from the ChatGPT mobile app",
       "summaryEn": "Tibo says you can now create and text your dot entirely from the ChatGPT mobile app; many people previously created them on desktop or web. The quoted ChatGPT post says you can create your dot from the ChatGPT app on iOS and Android."
+    },
+    {
+      "id": "2109045220411351517",
+      "url": "https://x.com/thsottiaux/status/2109045220411351517",
+      "day": 6,
+      "subDay": null,
+      "kind": "reset",
+      "title": "额度重置",
+      "summary": "第 6 天：所有人的用量额度重置。",
+      "verified": true,
+      "verifiedAt": "2026-10-10T22:52:38Z",
+      "publishedAt": "2026-10-10T22:15:39.000Z",
+      "originalText": "Day 6/ Reset",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2109045220411351517"
+      ],
+      "titleEn": "Usage reset",
+      "summaryEn": "Day 6: usage limits reset for everyone."
     }
   ],
   "excludedIds": [
