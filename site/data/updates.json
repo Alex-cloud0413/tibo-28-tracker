@@ -8,9 +8,30 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-11T23:39:28.661672+00:00",
-  "lastSuccessfulCheckAt": "2026-10-11T23:39:28.661672+00:00",
+  "checkedAt": "2026-10-12T00:50:31.110476+00:00",
+  "lastSuccessfulCheckAt": "2026-10-12T00:50:31.110476+00:00",
   "posts": [
+    {
+      "id": "2109430343346581527",
+      "url": "https://x.com/thsottiaux/status/2109430343346581527",
+      "day": 7,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 7 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-10-11T23:45:59.000000Z",
+      "originalText": "Day 7/ We have increased default context length for GPT-6.1 Sol to 500k when used through Codex & Work, up from 272k or an ~ 80% increase. We will go higher in the future, but it helps reduce occurrence of compactions and with tasks that require keeping a lot of context and nuance over periods of time. It was carefully tested and is the new sweet spot for most of our users. You can still override it if you want to be higher our lower, with maximum context length of GPT-6.1 Sol of 1M.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2109430343346581527"
+      ],
+      "firstSeenAt": "2026-10-12T00:50:31.110476+00:00",
+      "discoveredVia": [
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "078497e7a8ef73262e714ec13ae8fbf513ca73ee6e86a5dbd33dc000db20d2b4"
+    },
     {
       "id": "2109045220411351517",
       "url": "https://x.com/thsottiaux/status/2109045220411351517",
@@ -415,17 +436,17 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-11T23:31:08.941Z",
-      "checkedAt": "2026-10-11T23:39:28.661672+00:00",
-      "lastSuccessAt": "2026-10-11T23:39:28.661672+00:00",
+      "sourceFetchedAt": "2026-10-12T00:40:55.029Z",
+      "checkedAt": "2026-10-12T00:50:31.110476+00:00",
+      "lastSuccessAt": "2026-10-12T00:50:31.110476+00:00",
       "stale": false
     },
     "codex_resets": {
-      "ok": true,
+      "ok": false,
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
-      "sourceFetchedAt": null,
-      "checkedAt": "2026-10-11T23:39:28.661672+00:00",
+      "error": "RuntimeError",
+      "checkedAt": "2026-10-12T00:50:31.110476+00:00",
       "lastSuccessAt": "2026-10-11T23:39:28.661672+00:00"
     },
     "resetalerts": {
@@ -433,8 +454,8 @@
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-11T23:39:28.661672+00:00",
-      "lastSuccessAt": "2026-10-11T23:39:28.661672+00:00"
+      "checkedAt": "2026-10-12T00:50:31.110476+00:00",
+      "lastSuccessAt": "2026-10-12T00:50:31.110476+00:00"
     }
   },
   "campaignFinished": false
