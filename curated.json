@@ -284,6 +284,26 @@
       ],
       "titleEn": "Usage reset",
       "summaryEn": "Day 6: usage limits reset for everyone."
+    },
+    {
+      "id": "2109430343346581527",
+      "url": "https://x.com/thsottiaux/status/2109430343346581527",
+      "day": 7,
+      "subDay": null,
+      "kind": "update",
+      "title": "GPT-6.1 Sol 默认上下文提升至 500k",
+      "summary": "第 7 天：GPT-6.1 Sol 在 Codex 和 Work 中的默认上下文长度从 272k 提升到 500k（增幅约 80%），有助于减少压缩并处理需要大量上下文的任务；通过订阅额度使用时不收取长上下文费用。",
+      "verified": true,
+      "verifiedAt": "2026-10-12T00:51:37Z",
+      "publishedAt": "2026-10-11T23:45:59.000Z",
+      "originalText": "Day 7/ We have increased default context length for GPT-6.1 Sol to 500k when used through Codex & Work, up from 272k or an ~ 80% increase. We will go higher in the future, but it helps reduce occurrence of compactions and with tasks that require keeping a lot of context and",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2109430343346581527",
+        "https://x.com/thsottiaux/status/2109430894604026039"
+      ],
+      "titleEn": "GPT-6.1 Sol default context raised to 500k",
+      "summaryEn": "Day 7: default context for GPT-6.1 Sol in Codex & Work raised from 272k to 500k (~80%), reducing compactions; no long-context fees when drawing from the subscription."
     }
   ],
   "excludedIds": [
