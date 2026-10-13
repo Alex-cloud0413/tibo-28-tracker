@@ -323,6 +323,26 @@
       ],
       "titleEn": "Usage reset",
       "summaryEn": "Day 8: usage limits reset for everyone."
+    },
+    {
+      "id": "2109873287853707513",
+      "url": "https://x.com/thsottiaux/status/2109873287853707513",
+      "day": 8,
+      "subDay": null,
+      "kind": "reset",
+      "title": "全球重置已完成",
+      "summary": "Tibo 确认全球重置已经完成。原帖玩笑式问「要来点重置配菜吗」，并写明已经好了；引用此前预告将在太平洋标准时间当日结束前落地。",
+      "verified": true,
+      "verifiedAt": "2026-10-13T06:58:39Z",
+      "publishedAt": "2026-10-13T05:06:06.000Z",
+      "originalText": "What would you like with your side of reset? It's done.",
+      "quotedText": "Global reset landing by EOD PST time. Enjoy",
+      "sources": [
+        "https://x.com/thsottiaux/status/2109873287853707513",
+        "https://x.com/thsottiaux/status/2109812360596865224"
+      ],
+      "titleEn": "Global reset is done",
+      "summaryEn": "Tibo confirmed the global reset is done, jokingly asking what you'd like with your side of reset; the quoted post had said it would land by EOD PST."
     }
   ],
   "excludedIds": [
@@ -406,6 +426,16 @@
       "verified": true,
       "titleEn": "Day 5 · Composer predictions and mobile dots creation",
       "summaryEn": "Composer predictions in the Codex desktop app enter beta for Pro users without consuming usage; dots can now be created and used entirely in the ChatGPT mobile app on iOS and Android."
+    },
+    {
+      "day": 8,
+      "title": "Day 8 · 额度重置，全球重置已完成",
+      "summary": "第 8 天宣布用量额度重置，并预告全球重置将在太平洋标准时间当日结束前落地；随后 Tibo 确认全球重置已经完成。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2109812216212099456",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2109873287853707513",
+      "verified": true,
+      "titleEn": "Day 8 · Usage reset, then global reset done",
+      "summaryEn": "Day 8 announced a usage reset and said the global reset would land by EOD PST; Tibo later confirmed it was done."
     }
   ]
 }
