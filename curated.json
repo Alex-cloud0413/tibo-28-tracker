@@ -304,6 +304,25 @@
       ],
       "titleEn": "GPT-6.1 Sol default context raised to 500k",
       "summaryEn": "Day 7: default context for GPT-6.1 Sol in Codex & Work raised from 272k to 500k (~80%), reducing compactions; no long-context fees when drawing from the subscription."
+    },
+    {
+      "id": "2109812216212099456",
+      "url": "https://x.com/thsottiaux/status/2109812216212099456",
+      "day": 8,
+      "subDay": null,
+      "kind": "reset",
+      "title": "额度重置",
+      "summary": "第 8 天：所有人的用量额度重置。",
+      "verified": true,
+      "verifiedAt": "2026-10-13T02:55:52Z",
+      "publishedAt": "2026-10-13T01:03:25.000Z",
+      "originalText": "Day 8/ Reset",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2109812216212099456"
+      ],
+      "titleEn": "Usage reset",
+      "summaryEn": "Day 8: usage limits reset for everyone."
     }
   ],
   "excludedIds": [
