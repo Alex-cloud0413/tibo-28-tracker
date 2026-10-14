@@ -8,8 +8,8 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-14T00:55:24.487381+00:00",
-  "lastSuccessfulCheckAt": "2026-10-14T00:55:24.487381+00:00",
+  "checkedAt": "2026-10-14T00:57:08.406967+00:00",
+  "lastSuccessfulCheckAt": "2026-10-14T00:57:08.406967+00:00",
   "posts": [
     {
       "id": "2110151780478927344",
@@ -17,11 +17,11 @@
       "day": 9,
       "subDay": null,
       "kind": "update",
-      "title": "Day 9 · 新更新",
-      "summary": "自动收录的原帖线索，中文摘要待核对。",
-      "verified": false,
-      "publishedAt": "2026-10-13T23:32:43.000000Z",
-      "originalText": "Day 9/ We've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.",
+      "title": "桌面端磁盘占用减少约 60%",
+      "summary": "已对 ChatGPT 与 Codex 桌面端 App 的磁盘状态存储做优化，磁盘占用应能减少约 60%。改动不大，但收到不少重度用户磁盘空间不够用的反馈。",
+      "verified": true,
+      "publishedAt": "2026-10-13T23:32:43.000Z",
+      "originalText": "Day 9/\n\nWe've rolled out optimizations to how we store state on disk for the chatgpt & codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.",
       "quotedText": "",
       "sources": [
         "https://x.com/thsottiaux/status/2110151780478927344"
@@ -30,7 +30,10 @@
       "discoveredVia": [
         "tibo_live"
       ],
-      "mirrorFingerprint": "8bd08a85853c57462e154d3ab2c6b2e15bec5fb12c9ffc656e2285d7f5e19a95"
+      "mirrorFingerprint": "8bd08a85853c57462e154d3ab2c6b2e15bec5fb12c9ffc656e2285d7f5e19a95",
+      "verifiedAt": "2026-10-14T00:56:39Z",
+      "titleEn": "Desktop disk usage reduced by about 60%",
+      "summaryEn": "Optimizations to how ChatGPT and Codex desktop apps store state on disk should cut disk usage by about 60%. A small ship, after enough feedback about power users running out of disk space."
     },
     {
       "id": "2109873287853707513",
@@ -527,8 +530,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-14T00:50:49.138Z",
-      "checkedAt": "2026-10-14T00:55:24.487381+00:00",
-      "lastSuccessAt": "2026-10-14T00:55:24.487381+00:00",
+      "checkedAt": "2026-10-14T00:57:08.406967+00:00",
+      "lastSuccessAt": "2026-10-14T00:57:08.406967+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -536,16 +539,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-14T00:55:24.487381+00:00",
-      "lastSuccessAt": "2026-10-14T00:55:24.487381+00:00"
+      "checkedAt": "2026-10-14T00:57:08.406967+00:00",
+      "lastSuccessAt": "2026-10-14T00:57:08.406967+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-14T00:55:24.487381+00:00",
-      "lastSuccessAt": "2026-10-14T00:55:24.487381+00:00"
+      "checkedAt": "2026-10-14T00:57:08.406967+00:00",
+      "lastSuccessAt": "2026-10-14T00:57:08.406967+00:00"
     }
   },
   "campaignFinished": false
