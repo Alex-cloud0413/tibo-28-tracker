@@ -343,6 +343,25 @@
       ],
       "titleEn": "Global reset is done",
       "summaryEn": "Tibo confirmed the global reset is done, jokingly asking what you'd like with your side of reset; the quoted post had said it would land by EOD PST."
+    },
+    {
+      "id": "2110151780478927344",
+      "url": "https://x.com/thsottiaux/status/2110151780478927344",
+      "day": 9,
+      "subDay": null,
+      "kind": "update",
+      "title": "桌面端磁盘占用减少约 60%",
+      "summary": "已对 ChatGPT 与 Codex 桌面端 App 的磁盘状态存储做优化，磁盘占用应能减少约 60%。改动不大，但收到不少重度用户磁盘空间不够用的反馈。",
+      "verified": true,
+      "verifiedAt": "2026-10-14T00:56:39Z",
+      "publishedAt": "2026-10-13T23:32:43.000Z",
+      "originalText": "Day 9/\n\nWe've rolled out optimizations to how we store state on disk for the chatgpt & codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2110151780478927344"
+      ],
+      "titleEn": "Desktop disk usage reduced by about 60%",
+      "summaryEn": "Optimizations to how ChatGPT and Codex desktop apps store state on disk should cut disk usage by about 60%. A small ship, after enough feedback about power users running out of disk space."
     }
   ],
   "excludedIds": [
