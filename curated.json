@@ -381,6 +381,26 @@
       ],
       "titleEn": "Usage reset",
       "summaryEn": "Day 10: reset. Tibo says reports of his reset button being lost are greatly exaggerated."
+    },
+    {
+      "id": "2110618732666257557",
+      "url": "https://x.com/thsottiaux/status/2110618732666257557",
+      "day": 10,
+      "subDay": null,
+      "kind": "reset",
+      "title": "全球重置已完成",
+      "summary": "Tibo 确认重置已经完成。原帖写「搞定了」；引用此前预告将在约两小时内落地。",
+      "verified": true,
+      "verifiedAt": "2026-10-15T06:54:37Z",
+      "publishedAt": "2026-10-15T06:28:13.000Z",
+      "originalText": "Done and dusted",
+      "quotedText": "Landing within the next 2 hours",
+      "sources": [
+        "https://x.com/thsottiaux/status/2110618732666257557",
+        "https://x.com/thsottiaux/status/2110595554036400151"
+      ],
+      "titleEn": "Global reset is done",
+      "summaryEn": "Tibo confirmed the reset is done with “Done and dusted”; the quoted post had said it would land within the next 2 hours."
     }
   ],
   "excludedIds": [
@@ -432,7 +452,8 @@
     "2107294063011733505",
     "2107200530477101461",
     "2107185534359761051",
-    "2107159119107146237"
+    "2107159119107146237",
+    "2110595554036400151"
   ],
   "roundups": [
     {
@@ -474,6 +495,16 @@
       "verified": true,
       "titleEn": "Day 8 · Usage reset, then global reset done",
       "summaryEn": "Day 8 announced a usage reset and said the global reset would land by EOD PST; Tibo later confirmed it was done."
+    },
+    {
+      "day": 10,
+      "title": "Day 10 · 额度重置，全球重置已完成",
+      "summary": "第 10 天宣布用量额度重置；随后 Tibo 确认重置已经完成。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2110595484180214059",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2110618732666257557",
+      "verified": true,
+      "titleEn": "Day 10 · Usage reset, then global reset done",
+      "summaryEn": "Day 10 announced a usage reset; Tibo later confirmed it was done."
     }
   ]
 }
