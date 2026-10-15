@@ -401,6 +401,25 @@
       ],
       "titleEn": "Global reset is done",
       "summaryEn": "Tibo confirmed the reset is done with “Done and dusted”; the quoted post had said it would land within the next 2 hours."
+    },
+    {
+      "id": "2110750421367287996",
+      "url": "https://x.com/thsottiaux/status/2110750421367287996",
+      "day": 11,
+      "subDay": null,
+      "kind": "update",
+      "title": "大幅降低「Selected model is at capacity」出现频率",
+      "summary": "已落地一系列改动并增加更多算力，以大幅降低扰人的「Selected model is at capacity. Please try a different model」出现频率。即便偶尔还是出现，最终也应能自行继续，而不只是卡在那儿。如仍看到，可反馈以便排查。",
+      "verified": true,
+      "verifiedAt": "2026-10-15T16:56:16Z",
+      "publishedAt": "2026-10-15T15:11:30.000Z",
+      "originalText": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2110750421367287996"
+      ],
+      "titleEn": "Much lower occurrence of “Selected model is at capacity”",
+      "summaryEn": "A series of changes and more compute landed to very significantly decrease the disruptive “Selected model is at capacity. Please try a different model” prompt. When it still happens, it should eventually continue by itself instead of blocking. Report if you still see it in the wild."
     }
   ],
   "excludedIds": [
