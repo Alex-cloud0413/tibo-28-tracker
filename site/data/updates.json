@@ -8,9 +8,31 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-15T15:10:16.275849+00:00",
-  "lastSuccessfulCheckAt": "2026-10-15T15:10:16.275849+00:00",
+  "checkedAt": "2026-10-15T16:55:21.988604+00:00",
+  "lastSuccessfulCheckAt": "2026-10-15T16:55:21.988604+00:00",
   "posts": [
+    {
+      "id": "2110750421367287996",
+      "url": "https://x.com/thsottiaux/status/2110750421367287996",
+      "day": 11,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 11 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-10-15T15:11:30.000000Z",
+      "originalText": "Day 11/ We've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it. Let us know if you still see it out there in the wild and we'll take a look.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2110750421367287996"
+      ],
+      "firstSeenAt": "2026-10-15T16:55:21.988604+00:00",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "a4c4d5813865dda5275743231fd7796c6ac537c98bc86e0cee2846d6eaa513fb"
+    },
     {
       "id": "2110618732666257557",
       "url": "https://x.com/thsottiaux/status/2110618732666257557",
@@ -587,9 +609,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-15T15:01:22.110Z",
-      "checkedAt": "2026-10-15T15:10:16.275849+00:00",
-      "lastSuccessAt": "2026-10-15T15:10:16.275849+00:00",
+      "sourceFetchedAt": "2026-10-15T16:50:58.299Z",
+      "checkedAt": "2026-10-15T16:55:21.988604+00:00",
+      "lastSuccessAt": "2026-10-15T16:55:21.988604+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -597,16 +619,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-15T15:10:16.275849+00:00",
-      "lastSuccessAt": "2026-10-15T15:10:16.275849+00:00"
+      "checkedAt": "2026-10-15T16:55:21.988604+00:00",
+      "lastSuccessAt": "2026-10-15T16:55:21.988604+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-15T15:10:16.275849+00:00",
-      "lastSuccessAt": "2026-10-15T15:10:16.275849+00:00"
+      "checkedAt": "2026-10-15T16:55:21.988604+00:00",
+      "lastSuccessAt": "2026-10-15T16:55:21.988604+00:00"
     }
   },
   "campaignFinished": false
