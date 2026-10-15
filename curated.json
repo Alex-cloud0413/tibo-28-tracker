@@ -362,6 +362,25 @@
       ],
       "titleEn": "Desktop disk usage reduced by about 60%",
       "summaryEn": "Optimizations to how ChatGPT and Codex desktop apps store state on disk should cut disk usage by about 60%. A small ship, after enough feedback about power users running out of disk space."
+    },
+    {
+      "id": "2110595484180214059",
+      "url": "https://x.com/thsottiaux/status/2110595484180214059",
+      "day": 10,
+      "subDay": null,
+      "kind": "reset",
+      "title": "额度重置",
+      "summary": "第 10 天：重置。Tibo 表示，关于他的重置按钮已经丢了的传闻言过其实。",
+      "verified": true,
+      "verifiedAt": "2026-10-15T05:00:33Z",
+      "publishedAt": "2026-10-15T04:55:51.000Z",
+      "originalText": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2110595484180214059"
+      ],
+      "titleEn": "Usage reset",
+      "summaryEn": "Day 10: reset. Tibo says reports of his reset button being lost are greatly exaggerated."
     }
   ],
   "excludedIds": [
