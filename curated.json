@@ -479,6 +479,25 @@
       ],
       "titleEn": "Dots on the Home Screen",
       "summaryEn": "Tibo says to update the app to enjoy this gem. The quoted Gavin Nelson post says Dots are now on your Home Screen."
+    },
+    {
+      "id": "2111492673890824348",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "day": 13,
+      "subDay": null,
+      "kind": "reset",
+      "title": "额度重置",
+      "summary": "第 13 天：用量额度重置。",
+      "verified": true,
+      "verifiedAt": "2026-10-17T16:58:25Z",
+      "publishedAt": "2026-10-17T16:20:57.000Z",
+      "originalText": "Day 13/ Le limit reset",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2111492673890824348"
+      ],
+      "titleEn": "Usage limit reset",
+      "summaryEn": "Day 13: usage limit reset."
     }
   ],
   "excludedIds": [
