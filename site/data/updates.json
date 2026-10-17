@@ -8,20 +8,20 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-17T16:57:42.322817+00:00",
-  "lastSuccessfulCheckAt": "2026-10-17T16:57:42.322817+00:00",
+  "checkedAt": "2026-10-17T16:58:59.595233+00:00",
+  "lastSuccessfulCheckAt": "2026-10-17T16:58:59.595233+00:00",
   "posts": [
     {
       "id": "2111492673890824348",
       "url": "https://x.com/thsottiaux/status/2111492673890824348",
       "day": 13,
       "subDay": null,
-      "kind": "update",
-      "title": "Day 13 · 新更新",
-      "summary": "自动收录的原帖线索，中文摘要待核对。",
-      "verified": false,
-      "publishedAt": "2026-10-17T16:20:57.000000Z",
-      "originalText": "Day 13/ Le limit reset https://t.co/zXd2DIH5xf",
+      "kind": "reset",
+      "title": "额度重置",
+      "summary": "第 13 天：用量额度重置。",
+      "verified": true,
+      "publishedAt": "2026-10-17T16:20:57.000Z",
+      "originalText": "Day 13/ Le limit reset",
       "quotedText": "",
       "sources": [
         "https://x.com/thsottiaux/status/2111492673890824348"
@@ -30,7 +30,10 @@
       "discoveredVia": [
         "tibo_live"
       ],
-      "mirrorFingerprint": "469053707bb83f7893da8566fb9c5d5bb295225f90a2732a72e5bac2f83f0051"
+      "mirrorFingerprint": "469053707bb83f7893da8566fb9c5d5bb295225f90a2732a72e5bac2f83f0051",
+      "verifiedAt": "2026-10-17T16:58:25Z",
+      "titleEn": "Usage limit reset",
+      "summaryEn": "Day 13: usage limit reset."
     },
     {
       "id": "2111245052513259606",
@@ -724,8 +727,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-17T16:50:59.654Z",
-      "checkedAt": "2026-10-17T16:57:42.322817+00:00",
-      "lastSuccessAt": "2026-10-17T16:57:42.322817+00:00",
+      "checkedAt": "2026-10-17T16:58:59.595233+00:00",
+      "lastSuccessAt": "2026-10-17T16:58:59.595233+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -733,16 +736,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-17T16:57:42.322817+00:00",
-      "lastSuccessAt": "2026-10-17T16:57:42.322817+00:00"
+      "checkedAt": "2026-10-17T16:58:59.595233+00:00",
+      "lastSuccessAt": "2026-10-17T16:58:59.595233+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-17T16:57:42.322817+00:00",
-      "lastSuccessAt": "2026-10-17T16:57:42.322817+00:00"
+      "checkedAt": "2026-10-17T16:58:59.595233+00:00",
+      "lastSuccessAt": "2026-10-17T16:58:59.595233+00:00"
     }
   },
   "campaignFinished": false
