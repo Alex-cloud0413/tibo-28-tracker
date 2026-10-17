@@ -498,6 +498,25 @@
       ],
       "titleEn": "Usage limit reset",
       "summaryEn": "Day 13: usage limit reset."
+    },
+    {
+      "id": "2111566005684289735",
+      "url": "https://x.com/thsottiaux/status/2111566005684289735",
+      "day": 13,
+      "subDay": null,
+      "kind": "reset",
+      "title": "全球重置已完成",
+      "summary": "Tibo 确认重置已经完成。原帖写「搞定了」。",
+      "verified": true,
+      "verifiedAt": "2026-10-17T22:58:22Z",
+      "publishedAt": "2026-10-17T21:12:21.000Z",
+      "originalText": "Done",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2111566005684289735"
+      ],
+      "titleEn": "Global reset done",
+      "summaryEn": "Tibo confirmed the reset is done. The post simply said \"Done\"."
     }
   ],
   "excludedIds": [
@@ -612,6 +631,16 @@
       "verified": true,
       "titleEn": "Day 12 · Higher Codex & Work usage, GPT-6 Pro, and Home Screen Dots",
       "summaryEn": "Codex & Work gain effective usage via context reuse, longer caching, and better request routing; GPT-6 Pro / GPT-6 Astra Pro get faster responses and multi-agent parallel work; Dots appear on the Home Screen."
+    },
+    {
+      "day": 13,
+      "title": "Day 13 · 额度重置，全球重置已完成",
+      "summary": "第 13 天宣布用量额度重置；随后 Tibo 确认重置已经完成。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2111492673890824348",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2111566005684289735",
+      "verified": true,
+      "titleEn": "Day 13 · Usage reset, then global reset done",
+      "summaryEn": "Day 13 announced a usage reset; Tibo later confirmed it was done."
     }
   ]
 }
