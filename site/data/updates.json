@@ -8,9 +8,33 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-17T22:56:15.410092+00:00",
-  "lastSuccessfulCheckAt": "2026-10-17T22:56:15.410092+00:00",
+  "checkedAt": "2026-10-17T22:58:48.562439+00:00",
+  "lastSuccessfulCheckAt": "2026-10-17T22:58:48.562439+00:00",
   "posts": [
+    {
+      "id": "2111566005684289735",
+      "url": "https://x.com/thsottiaux/status/2111566005684289735",
+      "day": 13,
+      "subDay": null,
+      "kind": "reset",
+      "title": "全球重置已完成",
+      "summary": "Tibo 确认重置已经完成。原帖写「搞定了」。",
+      "verified": true,
+      "verifiedAt": "2026-10-17T22:58:22Z",
+      "publishedAt": "2026-10-17T21:12:21.000Z",
+      "originalText": "Done",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2111566005684289735"
+      ],
+      "titleEn": "Global reset done",
+      "summaryEn": "Tibo confirmed the reset is done. The post simply said \"Done\".",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "dc016d81be35438d87daa7de8cba4f6c437abf5f3e185ebba203d05d30488f3e"
+    },
     {
       "id": "2111492673890824348",
       "url": "https://x.com/thsottiaux/status/2111492673890824348",
@@ -687,14 +711,19 @@
       "verified": true,
       "titleEn": "Day 12 · Higher Codex & Work usage, GPT-6 Pro, and Home Screen Dots",
       "summaryEn": "Codex & Work gain effective usage via context reuse, longer caching, and better request routing; GPT-6 Pro / GPT-6 Astra Pro get faster responses and multi-agent parallel work; Dots appear on the Home Screen."
+    },
+    {
+      "day": 13,
+      "title": "Day 13 · 额度重置，全球重置已完成",
+      "summary": "第 13 天宣布用量额度重置；随后 Tibo 确认重置已经完成。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2111492673890824348",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2111566005684289735",
+      "verified": true,
+      "titleEn": "Day 13 · Usage reset, then global reset done",
+      "summaryEn": "Day 13 announced a usage reset; Tibo later confirmed it was done."
     }
   ],
   "candidates": [
-    {
-      "id": "2111566005684289735",
-      "url": "https://x.com/thsottiaux/status/2111566005684289735",
-      "firstSeenAt": "2026-10-17T22:17:51.538405+00:00"
-    },
     {
       "id": "2111249810502353152",
       "url": "https://x.com/thsottiaux/status/2111249810502353152",
@@ -732,8 +761,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-17T22:50:56.813Z",
-      "checkedAt": "2026-10-17T22:56:15.410092+00:00",
-      "lastSuccessAt": "2026-10-17T22:56:15.410092+00:00",
+      "checkedAt": "2026-10-17T22:58:48.562439+00:00",
+      "lastSuccessAt": "2026-10-17T22:58:48.562439+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -741,16 +770,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-17T22:56:15.410092+00:00",
-      "lastSuccessAt": "2026-10-17T22:56:15.410092+00:00"
+      "checkedAt": "2026-10-17T22:58:48.562439+00:00",
+      "lastSuccessAt": "2026-10-17T22:58:48.562439+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-17T22:56:15.410092+00:00",
-      "lastSuccessAt": "2026-10-17T22:56:15.410092+00:00"
+      "checkedAt": "2026-10-17T22:58:48.562439+00:00",
+      "lastSuccessAt": "2026-10-17T22:58:48.562439+00:00"
     }
   },
   "campaignFinished": false
