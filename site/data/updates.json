@@ -8,9 +8,31 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-16T22:50:58.427083+00:00",
-  "lastSuccessfulCheckAt": "2026-10-16T22:50:58.427083+00:00",
+  "checkedAt": "2026-10-17T00:28:32.395442+00:00",
+  "lastSuccessfulCheckAt": "2026-10-17T00:28:32.395442+00:00",
   "posts": [
+    {
+      "id": "2111244596131111253",
+      "url": "https://x.com/thsottiaux/status/2111244596131111253",
+      "day": 12,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 12 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-10-16T23:55:11.000000Z",
+      "originalText": "Day 12/ We’ve made improvements to Codex &amp; Work that increase the effective usage you get. We achieved this by reusing context across subagents, keeping context cached longer, and improved request routing that allows us to increase cache hits.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2111244596131111253"
+      ],
+      "firstSeenAt": "2026-10-17T00:28:32.395442+00:00",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "4b0c07c71c3cae179a25e4f7f48f2514fb301e22280e9d9f811c8b51fc03fe35"
+    },
     {
       "id": "2110750421367287996",
       "url": "https://x.com/thsottiaux/status/2110750421367287996",
@@ -582,6 +604,21 @@
   ],
   "candidates": [
     {
+      "id": "2111249810502353152",
+      "url": "https://x.com/thsottiaux/status/2111249810502353152",
+      "firstSeenAt": "2026-10-17T00:28:32.395442+00:00"
+    },
+    {
+      "id": "2111245052513259606",
+      "url": "https://x.com/thsottiaux/status/2111245052513259606",
+      "firstSeenAt": "2026-10-17T00:28:32.395442+00:00"
+    },
+    {
+      "id": "2111244957851984181",
+      "url": "https://x.com/thsottiaux/status/2111244957851984181",
+      "firstSeenAt": "2026-10-17T00:28:32.395442+00:00"
+    },
+    {
       "id": "2110151690641154499",
       "url": "https://x.com/thsottiaux/status/2110151690641154499",
       "firstSeenAt": "2026-10-14T00:55:24.487381+00:00"
@@ -612,9 +649,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-16T22:50:58.413Z",
-      "checkedAt": "2026-10-16T22:50:58.427083+00:00",
-      "lastSuccessAt": "2026-10-16T22:50:58.427083+00:00",
+      "sourceFetchedAt": "2026-10-17T00:21:07.749Z",
+      "checkedAt": "2026-10-17T00:28:32.395442+00:00",
+      "lastSuccessAt": "2026-10-17T00:28:32.395442+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -622,16 +659,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-16T22:50:58.427083+00:00",
-      "lastSuccessAt": "2026-10-16T22:50:58.427083+00:00"
+      "checkedAt": "2026-10-17T00:28:32.395442+00:00",
+      "lastSuccessAt": "2026-10-17T00:28:32.395442+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-16T22:50:58.427083+00:00",
-      "lastSuccessAt": "2026-10-16T22:50:58.427083+00:00"
+      "checkedAt": "2026-10-17T00:28:32.395442+00:00",
+      "lastSuccessAt": "2026-10-17T00:28:32.395442+00:00"
     }
   },
   "campaignFinished": false
