@@ -8,9 +8,31 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-19T00:58:21.151467+00:00",
-  "lastSuccessfulCheckAt": "2026-10-19T00:58:21.151467+00:00",
+  "checkedAt": "2026-10-19T02:53:06.181197+00:00",
+  "lastSuccessfulCheckAt": "2026-10-19T02:53:06.181197+00:00",
   "posts": [
+    {
+      "id": "2111990254408434095",
+      "url": "https://x.com/thsottiaux/status/2111990254408434095",
+      "day": 14,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 14 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-10-19T01:18:10.000000Z",
+      "originalText": "Day 14/ Small quality of life improvement. You can now edit previous messages within a thread in the desktop app. Long time requested, and took way too long to get that one out.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2111990254408434095"
+      ],
+      "firstSeenAt": "2026-10-19T02:53:06.181197+00:00",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "a58e8c9cce7ab6ae069794eeba6b34e07ac032f59d54a6f0b5746c6bf422f701"
+    },
     {
       "id": "2111566005684289735",
       "url": "https://x.com/thsottiaux/status/2111566005684289735",
@@ -760,9 +782,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-19T00:50:58.180Z",
-      "checkedAt": "2026-10-19T00:58:21.151467+00:00",
-      "lastSuccessAt": "2026-10-19T00:58:21.151467+00:00",
+      "sourceFetchedAt": "2026-10-19T02:50:59.763Z",
+      "checkedAt": "2026-10-19T02:53:06.181197+00:00",
+      "lastSuccessAt": "2026-10-19T02:53:06.181197+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -770,16 +792,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-19T00:58:21.151467+00:00",
-      "lastSuccessAt": "2026-10-19T00:58:21.151467+00:00"
+      "checkedAt": "2026-10-19T02:53:06.181197+00:00",
+      "lastSuccessAt": "2026-10-19T02:53:06.181197+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-19T00:58:21.151467+00:00",
-      "lastSuccessAt": "2026-10-19T00:58:21.151467+00:00"
+      "checkedAt": "2026-10-19T02:53:06.181197+00:00",
+      "lastSuccessAt": "2026-10-19T02:53:06.181197+00:00"
     }
   },
   "campaignFinished": false
