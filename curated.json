@@ -517,6 +517,25 @@
       ],
       "titleEn": "Global reset done",
       "summaryEn": "Tibo confirmed the reset is done. The post simply said \"Done\"."
+    },
+    {
+      "id": "2111990254408434095",
+      "url": "https://x.com/thsottiaux/status/2111990254408434095",
+      "day": 14,
+      "subDay": null,
+      "kind": "update",
+      "title": "桌面应用支持编辑线程内之前的消息",
+      "summary": "一个小的体验改进：现在可以在桌面应用里编辑线程中之前发过的消息。Tibo 说这是大家期待已久的功能，而且花了太久才做出来。",
+      "verified": true,
+      "verifiedAt": "2026-10-19T02:54:03Z",
+      "publishedAt": "2026-10-19T01:18:10.000Z",
+      "originalText": "Day 14/\n\nSmall quality of life improvement. You can now edit previous messages within a thread in the desktop app. Long time requested, and took way too long to get that one out.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2111990254408434095"
+      ],
+      "titleEn": "Edit previous messages in a thread in the desktop app",
+      "summaryEn": "A small quality-of-life improvement: you can now edit previous messages within a thread in the desktop app. Tibo said it was long requested and took too long to ship."
     }
   ],
   "excludedIds": [
