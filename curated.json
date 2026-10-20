@@ -536,6 +536,46 @@
       ],
       "titleEn": "Edit previous messages in a thread in the desktop app",
       "summaryEn": "A small quality-of-life improvement: you can now edit previous messages within a thread in the desktop app. Tibo said it was long requested and took too long to ship."
+    },
+    {
+      "id": "2112268918681485431",
+      "url": "https://x.com/thsottiaux/status/2112268918681485431",
+      "day": 15,
+      "subDay": null,
+      "kind": "update",
+      "title": "我们完蛋了",
+      "summary": "Tibo 发帖「第 15 天：我们完蛋了」。引用的 OpenAI Developers 帖子写道「这就是我们正在用 Codex 做的东西」，并附上一个直播链接。",
+      "verified": true,
+      "verifiedAt": "2026-10-20T06:59:32Z",
+      "publishedAt": "2026-10-19T19:45:28.000Z",
+      "originalText": "Day 15/ We're cooked",
+      "quotedText": "Here’s what we’re cooking with Codex:",
+      "sources": [
+        "https://x.com/thsottiaux/status/2112268918681485431",
+        "https://x.com/OpenAIDevs/status/2112242739198959913"
+      ],
+      "titleEn": "We're cooked",
+      "summaryEn": "Tibo posted \"Day 15/ We're cooked\". The quoted OpenAI Developers post says \"Here's what we're cooking with Codex:\" with a broadcast link."
+    },
+    {
+      "id": "2112432076767289678",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "day": 15,
+      "subDay": null,
+      "kind": "reset",
+      "title": "还在继续开工，额度重置",
+      "summary": "Tibo 改口说「算了，我们还在继续开工」，并宣布重置，结尾写「好好享用吧」。这条引用了他早些时候的「第 15 天：我们完蛋了」。",
+      "verified": true,
+      "verifiedAt": "2026-10-20T06:59:32Z",
+      "publishedAt": "2026-10-20T06:33:48.000Z",
+      "originalText": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+      "quotedText": "Day 15/ We're cooked",
+      "sources": [
+        "https://x.com/thsottiaux/status/2112432076767289678",
+        "https://x.com/thsottiaux/status/2112268918681485431"
+      ],
+      "titleEn": "Still cooking, and reset",
+      "summaryEn": "Tibo said \"Nevermind, we're still cooking... and reset. Enjoy.\", quoting his earlier \"Day 15/ We're cooked\" post."
     }
   ],
   "excludedIds": [
@@ -660,6 +700,16 @@
       "verified": true,
       "titleEn": "Day 13 · Usage reset, then global reset done",
       "summaryEn": "Day 13 announced a usage reset; Tibo later confirmed it was done."
+    },
+    {
+      "day": 15,
+      "title": "Day 15 · 我们完蛋了，随后改口并额度重置",
+      "summary": "第 15 天 Tibo 先发「我们完蛋了」，引用 OpenAI Developers 的 Codex 帖子；随后改口说还在继续开工，并宣布额度重置。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2112268918681485431",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2112432076767289678",
+      "verified": true,
+      "titleEn": "Day 15 · We're cooked, then still cooking and reset",
+      "summaryEn": "On Day 15 Tibo first posted \"We're cooked\", quoting an OpenAI Developers Codex post; he then said they're still cooking and announced a reset."
     }
   ]
 }
