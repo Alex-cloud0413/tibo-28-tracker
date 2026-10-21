@@ -8,8 +8,8 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-21T02:58:34.650983+00:00",
-  "lastSuccessfulCheckAt": "2026-10-21T02:58:34.650983+00:00",
+  "checkedAt": "2026-10-21T02:59:27.212908+00:00",
+  "lastSuccessfulCheckAt": "2026-10-21T02:59:27.212908+00:00",
   "posts": [
     {
       "id": "2112712984644784534",
@@ -17,21 +17,25 @@
       "day": 16,
       "subDay": null,
       "kind": "update",
-      "title": "Day 16 · 新更新",
-      "summary": "自动收录的原帖线索，中文摘要待核对。",
-      "verified": false,
-      "publishedAt": "2026-10-21T01:10:02.000000Z",
-      "originalText": "Day 16/ You can now cache for 12h in the API and for logged in users across Codex &amp; Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
-      "quotedText": "You can now choose 12-hour prompt caching in the API. Persistent agents, like dots, reuse context throughout the day. You can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.",
+      "title": "API 支持 12 小时缓存，Codex 和 Work 永久保留缓存",
+      "summary": "现在可以在 API 中把缓存保留 12 小时；对于已登录用户，Codex 和 Work 会永久保留缓存，回到旧对话或隔几小时再继续都没有额外代价，并保证命中缓存。这条引用了 OpenAI Developers 关于 12 小时 prompt caching 的帖子。",
+      "verified": true,
+      "publishedAt": "2026-10-21T01:10:02.000Z",
+      "originalText": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex & Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
+      "quotedText": "You can now choose 12-hour prompt caching in the API.\n\nPersistent agents, like dots, reuse context throughout the day. \n\nYou can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.",
       "sources": [
-        "https://x.com/thsottiaux/status/2112712984644784534"
+        "https://x.com/thsottiaux/status/2112712984644784534",
+        "https://x.com/OpenAIDevs/status/2112603916076781778"
       ],
       "firstSeenAt": "2026-10-21T02:58:34.650983+00:00",
       "discoveredVia": [
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "ccbf2df5ff8ddedeea602b4e9fd5f41ff12a7815c098fd86b5d4d00e4411f48f"
+      "mirrorFingerprint": "ccbf2df5ff8ddedeea602b4e9fd5f41ff12a7815c098fd86b5d4d00e4411f48f",
+      "verifiedAt": "2026-10-21T02:59:11Z",
+      "titleEn": "12-hour caching in the API, cache kept forever in Codex & Work",
+      "summaryEn": "You can now cache for 12h in the API, and for logged-in users across Codex & Work the cache is kept forever, with no penalty for returning to an old conversation and guaranteed cache hits. Quotes OpenAI Developers' post on 12-hour prompt caching."
     },
     {
       "id": "2112432076767289678",
@@ -869,8 +873,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-21T02:50:58.670Z",
-      "checkedAt": "2026-10-21T02:58:34.650983+00:00",
-      "lastSuccessAt": "2026-10-21T02:58:34.650983+00:00",
+      "checkedAt": "2026-10-21T02:59:27.212908+00:00",
+      "lastSuccessAt": "2026-10-21T02:59:27.212908+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -878,16 +882,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-21T02:58:34.650983+00:00",
-      "lastSuccessAt": "2026-10-21T02:58:34.650983+00:00"
+      "checkedAt": "2026-10-21T02:59:27.212908+00:00",
+      "lastSuccessAt": "2026-10-21T02:59:27.212908+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-21T02:58:34.650983+00:00",
-      "lastSuccessAt": "2026-10-21T02:58:34.650983+00:00"
+      "checkedAt": "2026-10-21T02:59:27.212908+00:00",
+      "lastSuccessAt": "2026-10-21T02:59:27.212908+00:00"
     }
   },
   "campaignFinished": false
