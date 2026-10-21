@@ -576,6 +576,26 @@
       ],
       "titleEn": "Still cooking, and reset",
       "summaryEn": "Tibo said \"Nevermind, we're still cooking... and reset. Enjoy.\", quoting his earlier \"Day 15/ We're cooked\" post."
+    },
+    {
+      "id": "2112712984644784534",
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "day": 16,
+      "subDay": null,
+      "kind": "update",
+      "title": "API 支持 12 小时缓存，Codex 和 Work 永久保留缓存",
+      "summary": "现在可以在 API 中把缓存保留 12 小时；对于已登录用户，Codex 和 Work 会永久保留缓存，回到旧对话或隔几小时再继续都没有额外代价，并保证命中缓存。这条引用了 OpenAI Developers 关于 12 小时 prompt caching 的帖子。",
+      "verified": true,
+      "verifiedAt": "2026-10-21T02:59:11Z",
+      "publishedAt": "2026-10-21T01:10:02.000Z",
+      "originalText": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex & Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
+      "quotedText": "You can now choose 12-hour prompt caching in the API.\n\nPersistent agents, like dots, reuse context throughout the day. \n\nYou can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.",
+      "sources": [
+        "https://x.com/thsottiaux/status/2112712984644784534",
+        "https://x.com/OpenAIDevs/status/2112603916076781778"
+      ],
+      "titleEn": "12-hour caching in the API, cache kept forever in Codex & Work",
+      "summaryEn": "You can now cache for 12h in the API, and for logged-in users across Codex & Work the cache is kept forever, with no penalty for returning to an old conversation and guaranteed cache hits. Quotes OpenAI Developers' post on 12-hour prompt caching."
     }
   ],
   "excludedIds": [
