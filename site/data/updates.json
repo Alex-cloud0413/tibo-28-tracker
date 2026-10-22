@@ -8,9 +8,28 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-22T07:00:16.599000+00:00",
-  "lastSuccessfulCheckAt": "2026-10-22T07:00:16.599000+00:00",
+  "checkedAt": "2026-10-22T07:00:55.115650+00:00",
+  "lastSuccessfulCheckAt": "2026-10-22T07:00:55.115650+00:00",
   "posts": [
+    {
+      "id": "2113162277688070445",
+      "url": "https://x.com/thsottiaux/status/2113162277688070445",
+      "day": 17,
+      "subDay": null,
+      "kind": "reset",
+      "title": "今天是重置日，提醒申请 Daybreak Blue",
+      "summary": "Tibo 说你以为他们忘了，其实今天是重置日；并提醒大家去拿 Daybreak Blue 权限，只要 15 分钟，别等到故障中间才办。",
+      "verified": true,
+      "verifiedAt": "2026-10-22T07:00:45Z",
+      "publishedAt": "2026-10-22T06:55:22.000Z",
+      "originalText": "Day 17/ Bet you thought we forgot, but no, it’s reset day today.\n\nAlso good time to remind you to get Daybreak Blue access, it only takes 15 mins and you don’t want to have to do it in the middle of an incident.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2113162277688070445"
+      ],
+      "titleEn": "Reset day, and a Daybreak Blue reminder",
+      "summaryEn": "Tibo said you thought they forgot, but it's reset day; he also reminded people to get Daybreak Blue access — it only takes 15 minutes, and you don't want to do it in the middle of an incident."
+    },
     {
       "id": "2112712984644784534",
       "url": "https://x.com/thsottiaux/status/2112712984644784534",
@@ -873,25 +892,25 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-22T06:50:59.415Z",
-      "checkedAt": "2026-10-22T07:00:16.599000+00:00",
-      "lastSuccessAt": "2026-10-22T07:00:16.599000+00:00",
+      "checkedAt": "2026-10-22T07:00:55.115650+00:00",
+      "lastSuccessAt": "2026-10-22T07:00:55.115650+00:00",
       "stale": false
     },
     "codex_resets": {
-      "ok": false,
+      "ok": true,
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
-      "error": "RuntimeError",
-      "checkedAt": "2026-10-22T07:00:16.599000+00:00",
-      "lastSuccessAt": "2026-10-22T04:52:15.034499+00:00"
+      "sourceFetchedAt": null,
+      "checkedAt": "2026-10-22T07:00:55.115650+00:00",
+      "lastSuccessAt": "2026-10-22T07:00:55.115650+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-22T07:00:16.599000+00:00",
-      "lastSuccessAt": "2026-10-22T07:00:16.599000+00:00"
+      "checkedAt": "2026-10-22T07:00:55.115650+00:00",
+      "lastSuccessAt": "2026-10-22T07:00:55.115650+00:00"
     }
   },
   "campaignFinished": false
