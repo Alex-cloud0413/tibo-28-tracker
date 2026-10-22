@@ -596,6 +596,25 @@
       ],
       "titleEn": "12-hour caching in the API, cache kept forever in Codex & Work",
       "summaryEn": "You can now cache for 12h in the API, and for logged-in users across Codex & Work the cache is kept forever, with no penalty for returning to an old conversation and guaranteed cache hits. Quotes OpenAI Developers' post on 12-hour prompt caching."
+    },
+    {
+      "id": "2113162277688070445",
+      "url": "https://x.com/thsottiaux/status/2113162277688070445",
+      "day": 17,
+      "subDay": null,
+      "kind": "reset",
+      "title": "今天是重置日，提醒申请 Daybreak Blue",
+      "summary": "Tibo 说你以为他们忘了，其实今天是重置日；并提醒大家去拿 Daybreak Blue 权限，只要 15 分钟，别等到故障中间才办。",
+      "verified": true,
+      "verifiedAt": "2026-10-22T07:00:45Z",
+      "publishedAt": "2026-10-22T06:55:22.000Z",
+      "originalText": "Day 17/ Bet you thought we forgot, but no, it’s reset day today.\n\nAlso good time to remind you to get Daybreak Blue access, it only takes 15 mins and you don’t want to have to do it in the middle of an incident.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2113162277688070445"
+      ],
+      "titleEn": "Reset day, and a Daybreak Blue reminder",
+      "summaryEn": "Tibo said you thought they forgot, but it's reset day; he also reminded people to get Daybreak Blue access — it only takes 15 minutes, and you don't want to do it in the middle of an incident."
     }
   ],
   "excludedIds": [
@@ -648,7 +667,8 @@
     "2107200530477101461",
     "2107185534359761051",
     "2107159119107146237",
-    "2110595554036400151"
+    "2110595554036400151",
+    "2113162277688070445"
   ],
   "roundups": [
     {
