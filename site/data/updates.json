@@ -8,20 +8,44 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-23T04:54:22.001200+00:00",
-  "lastSuccessfulCheckAt": "2026-10-23T04:54:22.001200+00:00",
+  "checkedAt": "2026-10-23T04:57:28.967763+00:00",
+  "lastSuccessfulCheckAt": "2026-10-23T04:57:28.967763+00:00",
   "posts": [
+    {
+      "id": "2113492502355562875",
+      "url": "https://x.com/thsottiaux/status/2113492502355562875",
+      "day": 18,
+      "subDay": null,
+      "kind": "announcement",
+      "title": "重置上线时间：明天 PST 上午 10 点前，带一个小 ship",
+      "summary": "重置将于明天太平洋标准时间上午 10 点前上线，并会带一个小 ship。",
+      "verified": true,
+      "verifiedAt": "2026-10-23T04:57:08Z",
+      "publishedAt": "2026-10-23T04:47:34.000Z",
+      "originalText": "Landing tomorrow before 10am PST together with a small ship.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2113492502355562875"
+      ],
+      "titleEn": "Landing tomorrow before 10am PST with a small ship",
+      "summaryEn": "The reset will land tomorrow before 10am PST, together with a small ship.",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "ad27c98c9144c8cb3100370a27f20d8929e4f4c2d04e56c3add01a8f2fa83d16"
+    },
     {
       "id": "2113492187770175603",
       "url": "https://x.com/thsottiaux/status/2113492187770175603",
       "day": 18,
       "subDay": null,
-      "kind": "update",
-      "title": "Day 18 · 新更新",
-      "summary": "自动收录的原帖线索，中文摘要待核对。",
-      "verified": false,
-      "publishedAt": "2026-10-23T04:46:19.000000Z",
-      "originalText": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex &amp; work. But yes… that’s a reset!",
+      "kind": "reset",
+      "title": "Decisions API GA、OpenResponses 加入 Linux Foundation，额度重置",
+      "summary": "Tibo 宣布 Decisions API 正式 GA，OpenResponses 加入 Linux Foundation，并提到发了一些性能改进、Uber 全面押注 Codex 和 Work；同时说这是一次重置。",
+      "verified": true,
+      "publishedAt": "2026-10-23T04:46:19.000Z",
+      "originalText": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex & work. But yes… that’s a reset!",
       "quotedText": "",
       "sources": [
         "https://x.com/thsottiaux/status/2113492187770175603"
@@ -30,7 +54,10 @@
       "discoveredVia": [
         "tibo_live"
       ],
-      "mirrorFingerprint": "aebaab7fff5d9ce35cf88c8641eb593d73dc8ebd102fddc0771f49175a01cd20"
+      "mirrorFingerprint": "aebaab7fff5d9ce35cf88c8641eb593d73dc8ebd102fddc0771f49175a01cd20",
+      "verifiedAt": "2026-10-23T04:57:08Z",
+      "titleEn": "Decisions API GA, OpenResponses joins Linux Foundation, and a reset",
+      "summaryEn": "Tibo announced Decisions API is GA, OpenResponses joined the Linux Foundation, some performance improvements shipped, and Uber is going all-in on Codex & Work — and yes, that’s a reset."
     },
     {
       "id": "2113162277688070445",
@@ -873,14 +900,19 @@
       "verified": true,
       "titleEn": "Day 15 · We're cooked, then still cooking and reset",
       "summaryEn": "On Day 15 Tibo first posted \"We're cooked\", quoting an OpenAI Developers Codex post; he then said they're still cooking and announced a reset."
+    },
+    {
+      "day": 18,
+      "title": "Day 18 · Decisions API GA、OpenResponses 与额度重置",
+      "summary": "第 18 天宣布 Decisions API 正式 GA，OpenResponses 加入 Linux Foundation，并提到性能改进与 Uber 全面押注 Codex 和 Work；同时宣布重置，预告明天太平洋标准时间上午 10 点前上线并带一个小 ship。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2113492187770175603",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2113492502355562875",
+      "verified": true,
+      "titleEn": "Day 18 · Decisions API GA, OpenResponses, and a reset",
+      "summaryEn": "Day 18 announced Decisions API GA, OpenResponses joining the Linux Foundation, performance improvements, and Uber going all-in on Codex & Work; also announced a reset landing tomorrow before 10am PST with a small ship."
     }
   ],
   "candidates": [
-    {
-      "id": "2113492502355562875",
-      "url": "https://x.com/thsottiaux/status/2113492502355562875",
-      "firstSeenAt": "2026-10-23T04:54:22.001200+00:00"
-    },
     {
       "id": "2111249810502353152",
       "url": "https://x.com/thsottiaux/status/2111249810502353152",
@@ -918,8 +950,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-23T04:51:06.926Z",
-      "checkedAt": "2026-10-23T04:54:22.001200+00:00",
-      "lastSuccessAt": "2026-10-23T04:54:22.001200+00:00",
+      "checkedAt": "2026-10-23T04:57:28.967763+00:00",
+      "lastSuccessAt": "2026-10-23T04:57:28.967763+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -927,16 +959,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-23T04:54:22.001200+00:00",
-      "lastSuccessAt": "2026-10-23T04:54:22.001200+00:00"
+      "checkedAt": "2026-10-23T04:57:28.967763+00:00",
+      "lastSuccessAt": "2026-10-23T04:57:28.967763+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-23T04:54:22.001200+00:00",
-      "lastSuccessAt": "2026-10-23T04:54:22.001200+00:00"
+      "checkedAt": "2026-10-23T04:57:28.967763+00:00",
+      "lastSuccessAt": "2026-10-23T04:57:28.967763+00:00"
     }
   },
   "campaignFinished": false
