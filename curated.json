@@ -615,6 +615,44 @@
       ],
       "titleEn": "Reset day, and a Daybreak Blue reminder",
       "summaryEn": "Tibo said you thought they forgot, but it's reset day; he also reminded people to get Daybreak Blue access — it only takes 15 minutes, and you don't want to do it in the middle of an incident."
+    },
+    {
+      "id": "2113492187770175603",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "day": 18,
+      "subDay": null,
+      "kind": "reset",
+      "title": "Decisions API GA、OpenResponses 加入 Linux Foundation，额度重置",
+      "summary": "Tibo 宣布 Decisions API 正式 GA，OpenResponses 加入 Linux Foundation，并提到发了一些性能改进、Uber 全面押注 Codex 和 Work；同时说这是一次重置。",
+      "verified": true,
+      "verifiedAt": "2026-10-23T04:57:08Z",
+      "publishedAt": "2026-10-23T04:46:19.000Z",
+      "originalText": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex & work. But yes… that’s a reset!",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2113492187770175603"
+      ],
+      "titleEn": "Decisions API GA, OpenResponses joins Linux Foundation, and a reset",
+      "summaryEn": "Tibo announced Decisions API is GA, OpenResponses joined the Linux Foundation, some performance improvements shipped, and Uber is going all-in on Codex & Work — and yes, that’s a reset."
+    },
+    {
+      "id": "2113492502355562875",
+      "url": "https://x.com/thsottiaux/status/2113492502355562875",
+      "day": 18,
+      "subDay": null,
+      "kind": "announcement",
+      "title": "重置上线时间：明天 PST 上午 10 点前，带一个小 ship",
+      "summary": "重置将于明天太平洋标准时间上午 10 点前上线，并会带一个小 ship。",
+      "verified": true,
+      "verifiedAt": "2026-10-23T04:57:08Z",
+      "publishedAt": "2026-10-23T04:47:34.000Z",
+      "originalText": "Landing tomorrow before 10am PST together with a small ship.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2113492502355562875"
+      ],
+      "titleEn": "Landing tomorrow before 10am PST with a small ship",
+      "summaryEn": "The reset will land tomorrow before 10am PST, together with a small ship."
     }
   ],
   "excludedIds": [
@@ -750,6 +788,16 @@
       "verified": true,
       "titleEn": "Day 15 · We're cooked, then still cooking and reset",
       "summaryEn": "On Day 15 Tibo first posted \"We're cooked\", quoting an OpenAI Developers Codex post; he then said they're still cooking and announced a reset."
+    },
+    {
+      "day": 18,
+      "title": "Day 18 · Decisions API GA、OpenResponses 与额度重置",
+      "summary": "第 18 天宣布 Decisions API 正式 GA，OpenResponses 加入 Linux Foundation，并提到性能改进与 Uber 全面押注 Codex 和 Work；同时宣布重置，预告明天太平洋标准时间上午 10 点前上线并带一个小 ship。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2113492187770175603",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2113492502355562875",
+      "verified": true,
+      "titleEn": "Day 18 · Decisions API GA, OpenResponses, and a reset",
+      "summaryEn": "Day 18 announced Decisions API GA, OpenResponses joining the Linux Foundation, performance improvements, and Uber going all-in on Codex & Work; also announced a reset landing tomorrow before 10am PST with a small ship."
     }
   ]
 }
