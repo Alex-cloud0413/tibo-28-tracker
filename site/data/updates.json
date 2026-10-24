@@ -8,20 +8,44 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-24T00:52:13.773708+00:00",
-  "lastSuccessfulCheckAt": "2026-10-24T00:52:13.773708+00:00",
+  "checkedAt": "2026-10-24T00:53:01.660626+00:00",
+  "lastSuccessfulCheckAt": "2026-10-24T00:53:01.660626+00:00",
   "posts": [
+    {
+      "id": "2113770862860222611",
+      "url": "https://x.com/thsottiaux/status/2113770862860222611",
+      "day": 19,
+      "subDay": null,
+      "kind": "update",
+      "title": "Codex CLI：prompt presets、行内设置、企业 MCP、长会话与 Windows 代理",
+      "summary": "Codex CLI 新增可复用 prompt presets、行内 model 与 permission 设置、企业版 MCP 登录；修复长会话恢复失败，并加入 Windows 企业代理认证。自 DevDay 以来 CLI 用量增长 2 倍。",
+      "verified": true,
+      "verifiedAt": "2026-10-24T00:52:42Z",
+      "publishedAt": "2026-10-23T23:13:40.000Z",
+      "originalText": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since DevDay.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2113770862860222611"
+      ],
+      "titleEn": "Codex CLI: prompt presets, inline settings, enterprise MCP, long sessions, Windows proxy",
+      "summaryEn": "Codex CLI added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in; fixed long-session resume failures and added Windows corporate-proxy authentication. CLI usage has grown 2X since DevDay.",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "21b356fdf02813b4a21f4719ef4700b752fabf4a11198f79ea7c95dc4e2c9b5f"
+    },
     {
       "id": "2113770573994299544",
       "url": "https://x.com/thsottiaux/status/2113770573994299544",
       "day": 19,
       "subDay": null,
       "kind": "update",
-      "title": "Day 19 · 新更新",
-      "summary": "自动收录的原帖线索，中文摘要待核对。",
-      "verified": false,
-      "publishedAt": "2026-10-23T23:12:31.000000Z",
-      "originalText": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex &amp; work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
+      "title": "小更新：dots 通话更快、Codex & Work 中途改 reasoning 不失效缓存、更新 CLI",
+      "summary": "第 19 天一些小更新：dots 的通话连接快了很多；在 Codex & Work 对话中途改 reasoning 不会再让缓存失效；还更新了 Codex CLI。",
+      "verified": true,
+      "publishedAt": "2026-10-23T23:12:31.000Z",
+      "originalText": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
       "quotedText": "",
       "sources": [
         "https://x.com/thsottiaux/status/2113770573994299544"
@@ -31,7 +55,10 @@
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "0a9f0150f64dfa9acab4e3c6fecb55dbbb3f13341b2de324e03a450e3018b001"
+      "mirrorFingerprint": "0a9f0150f64dfa9acab4e3c6fecb55dbbb3f13341b2de324e03a450e3018b001",
+      "verifiedAt": "2026-10-24T00:52:42Z",
+      "titleEn": "Small updates: faster dots calls, mid-conversation reasoning no longer busts cache, Codex CLI update",
+      "summaryEn": "Day 19 small updates: dots calls connect much faster; changing reasoning mid conversation in Codex & Work no longer invalidates cache; and the Codex CLI was updated."
     },
     {
       "id": "2113492502355562875",
@@ -932,14 +959,19 @@
       "verified": true,
       "titleEn": "Day 18 · Decisions API GA, OpenResponses, and a reset",
       "summaryEn": "Day 18 announced Decisions API GA, OpenResponses joining the Linux Foundation, performance improvements, and Uber going all-in on Codex & Work; also announced a reset landing tomorrow before 10am PST with a small ship."
+    },
+    {
+      "day": 19,
+      "title": "Day 19 · dots / Codex & Work 小更新，Codex CLI 功能与用量",
+      "summary": "dots 通话更快；Codex & Work 中途改 reasoning 不再使缓存失效；Codex CLI 新增 prompt presets、行内设置、企业 MCP 登录，并修复长会话与 Windows 企业代理；自 DevDay 以来 CLI 用量增长 2 倍。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2113770573994299544",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2113770862860222611",
+      "verified": true,
+      "titleEn": "Day 19 · Small dots / Codex & Work updates, and Codex CLI growth",
+      "summaryEn": "Faster dots calls; mid-conversation reasoning changes no longer bust Codex & Work cache; Codex CLI gains prompt presets, inline settings, enterprise MCP sign-in, long-session and Windows proxy fixes; CLI usage up 2X since DevDay."
     }
   ],
   "candidates": [
-    {
-      "id": "2113770862860222611",
-      "url": "https://x.com/thsottiaux/status/2113770862860222611",
-      "firstSeenAt": "2026-10-24T00:51:12.872727+00:00"
-    },
     {
       "id": "2111249810502353152",
       "url": "https://x.com/thsottiaux/status/2111249810502353152",
@@ -977,8 +1009,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-24T00:50:58.450Z",
-      "checkedAt": "2026-10-24T00:52:13.773708+00:00",
-      "lastSuccessAt": "2026-10-24T00:52:13.773708+00:00",
+      "checkedAt": "2026-10-24T00:53:01.660626+00:00",
+      "lastSuccessAt": "2026-10-24T00:53:01.660626+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -986,16 +1018,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-24T00:52:13.773708+00:00",
-      "lastSuccessAt": "2026-10-24T00:52:13.773708+00:00"
+      "checkedAt": "2026-10-24T00:53:01.660626+00:00",
+      "lastSuccessAt": "2026-10-24T00:53:01.660626+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-24T00:52:13.773708+00:00",
-      "lastSuccessAt": "2026-10-24T00:52:13.773708+00:00"
+      "checkedAt": "2026-10-24T00:53:01.660626+00:00",
+      "lastSuccessAt": "2026-10-24T00:53:01.660626+00:00"
     }
   },
   "campaignFinished": false
