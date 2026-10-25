@@ -691,6 +691,44 @@
       ],
       "titleEn": "Codex CLI: prompt presets, inline settings, enterprise MCP, long sessions, Windows proxy",
       "summaryEn": "Codex CLI added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in; fixed long-session resume failures and added Windows corporate-proxy authentication. CLI usage has grown 2X since DevDay."
+    },
+    {
+      "id": "2114200152701575656",
+      "url": "https://x.com/thsottiaux/status/2114200152701575656",
+      "day": 20,
+      "subDay": null,
+      "kind": "reset",
+      "title": "休息与重置",
+      "summary": "Tibo 发帖「第 20 天：休息一下，然后重置。」",
+      "verified": true,
+      "verifiedAt": "2026-10-25T04:56:59Z",
+      "publishedAt": "2026-10-25T03:39:31.000Z",
+      "originalText": "Day 20/ Rest and reset",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2114200152701575656"
+      ],
+      "titleEn": "Rest and reset",
+      "summaryEn": "Tibo posted \"Day 20/ Rest and reset.\""
+    },
+    {
+      "id": "2114200291319124163",
+      "url": "https://x.com/thsottiaux/status/2114200291319124163",
+      "day": 20,
+      "subDay": null,
+      "kind": "announcement",
+      "title": "重置上线时间：太平洋标准时间午夜前",
+      "summary": "重置将于太平洋标准时间午夜前上线。",
+      "verified": true,
+      "verifiedAt": "2026-10-25T04:56:59Z",
+      "publishedAt": "2026-10-25T03:40:04.000Z",
+      "originalText": "By midnight PST",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2114200291319124163"
+      ],
+      "titleEn": "Reset landing: by midnight PST",
+      "summaryEn": "The reset will land by midnight PST."
     }
   ],
   "excludedIds": [
@@ -846,6 +884,16 @@
       "verified": true,
       "titleEn": "Day 19 · Small dots / Codex & Work updates, and Codex CLI growth",
       "summaryEn": "Faster dots calls; mid-conversation reasoning changes no longer bust Codex & Work cache; Codex CLI gains prompt presets, inline settings, enterprise MCP sign-in, long-session and Windows proxy fixes; CLI usage up 2X since DevDay."
+    },
+    {
+      "day": 20,
+      "title": "Day 20 · 休息与重置，午夜前上线",
+      "summary": "Tibo 宣布第 20 天休息与重置，并说明将于太平洋标准时间午夜前上线。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2114200152701575656",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2114200291319124163",
+      "verified": true,
+      "titleEn": "Day 20 · Rest and reset, landing by midnight PST",
+      "summaryEn": "Tibo announced a Day 20 rest and reset, and said it will land by midnight PST."
     }
   ]
 }
