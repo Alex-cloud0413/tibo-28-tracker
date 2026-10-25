@@ -8,19 +8,43 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-25T04:55:46.430901+00:00",
-  "lastSuccessfulCheckAt": "2026-10-25T04:55:46.430901+00:00",
+  "checkedAt": "2026-10-25T04:57:15.246556+00:00",
+  "lastSuccessfulCheckAt": "2026-10-25T04:57:15.246556+00:00",
   "posts": [
+    {
+      "id": "2114200291319124163",
+      "url": "https://x.com/thsottiaux/status/2114200291319124163",
+      "day": 20,
+      "subDay": null,
+      "kind": "announcement",
+      "title": "重置上线时间：太平洋标准时间午夜前",
+      "summary": "重置将于太平洋标准时间午夜前上线。",
+      "verified": true,
+      "verifiedAt": "2026-10-25T04:56:59Z",
+      "publishedAt": "2026-10-25T03:40:04.000Z",
+      "originalText": "By midnight PST",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2114200291319124163"
+      ],
+      "titleEn": "Reset landing: by midnight PST",
+      "summaryEn": "The reset will land by midnight PST.",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "3e4194fdf2e50c8c5913fc97054c3b55252843b6dc69629f127a02d611b4c215"
+    },
     {
       "id": "2114200152701575656",
       "url": "https://x.com/thsottiaux/status/2114200152701575656",
       "day": 20,
       "subDay": null,
-      "kind": "update",
-      "title": "Day 20 · 新更新",
-      "summary": "自动收录的原帖线索，中文摘要待核对。",
-      "verified": false,
-      "publishedAt": "2026-10-25T03:39:31.000000Z",
+      "kind": "reset",
+      "title": "休息与重置",
+      "summary": "Tibo 发帖「第 20 天：休息一下，然后重置。」",
+      "verified": true,
+      "publishedAt": "2026-10-25T03:39:31.000Z",
       "originalText": "Day 20/ Rest and reset",
       "quotedText": "",
       "sources": [
@@ -30,7 +54,10 @@
       "discoveredVia": [
         "tibo_live"
       ],
-      "mirrorFingerprint": "f2d29f454f61dc01c19113db3eb9decb7147d42786690a2b9418272dabfac245"
+      "mirrorFingerprint": "f2d29f454f61dc01c19113db3eb9decb7147d42786690a2b9418272dabfac245",
+      "verifiedAt": "2026-10-25T04:56:59Z",
+      "titleEn": "Rest and reset",
+      "summaryEn": "Tibo posted \"Day 20/ Rest and reset.\""
     },
     {
       "id": "2113770862860222611",
@@ -990,14 +1017,19 @@
       "verified": true,
       "titleEn": "Day 19 · Small dots / Codex & Work updates, and Codex CLI growth",
       "summaryEn": "Faster dots calls; mid-conversation reasoning changes no longer bust Codex & Work cache; Codex CLI gains prompt presets, inline settings, enterprise MCP sign-in, long-session and Windows proxy fixes; CLI usage up 2X since DevDay."
+    },
+    {
+      "day": 20,
+      "title": "Day 20 · 休息与重置，午夜前上线",
+      "summary": "Tibo 宣布第 20 天休息与重置，并说明将于太平洋标准时间午夜前上线。",
+      "sourceUrl": "https://x.com/thsottiaux/status/2114200152701575656",
+      "additionalSourceUrl": "https://x.com/thsottiaux/status/2114200291319124163",
+      "verified": true,
+      "titleEn": "Day 20 · Rest and reset, landing by midnight PST",
+      "summaryEn": "Tibo announced a Day 20 rest and reset, and said it will land by midnight PST."
     }
   ],
   "candidates": [
-    {
-      "id": "2114200291319124163",
-      "url": "https://x.com/thsottiaux/status/2114200291319124163",
-      "firstSeenAt": "2026-10-25T04:40:01.443402+00:00"
-    },
     {
       "id": "2111249810502353152",
       "url": "https://x.com/thsottiaux/status/2111249810502353152",
@@ -1035,8 +1067,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-25T04:51:07.361Z",
-      "checkedAt": "2026-10-25T04:55:46.430901+00:00",
-      "lastSuccessAt": "2026-10-25T04:55:46.430901+00:00",
+      "checkedAt": "2026-10-25T04:57:15.246556+00:00",
+      "lastSuccessAt": "2026-10-25T04:57:15.246556+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -1044,16 +1076,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-25T04:55:46.430901+00:00",
-      "lastSuccessAt": "2026-10-25T04:55:46.430901+00:00"
+      "checkedAt": "2026-10-25T04:57:15.246556+00:00",
+      "lastSuccessAt": "2026-10-25T04:57:15.246556+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-25T04:55:46.430901+00:00",
-      "lastSuccessAt": "2026-10-25T04:55:46.430901+00:00"
+      "checkedAt": "2026-10-25T04:57:15.246556+00:00",
+      "lastSuccessAt": "2026-10-25T04:57:15.246556+00:00"
     }
   },
   "campaignFinished": false
