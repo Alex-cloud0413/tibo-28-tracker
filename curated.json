@@ -748,6 +748,26 @@
       ],
       "titleEn": "Wonder what happens the remaining seven days — today is a reset",
       "summaryEn": "Day 21: Wonder what happens the remaining seven days. But today is a reset."
+    },
+    {
+      "id": "2114800277677092936",
+      "url": "https://x.com/thsottiaux/status/2114800277677092936",
+      "day": 22,
+      "subDay": null,
+      "kind": "update",
+      "title": "Terra 回来了：写作、个性与细腻理解更强，用量翻倍",
+      "summary": "Tibo 宣布第 22 天推出 GPT-6.1 Terra：写作、个性和对请求的细腻理解明显更好，computer use 很强，API 与订阅用量均为 6.1 Sol 的 2 倍。引用的 OpenAI 帖称 Terra 以更低价格提供快速能干的 computer use，能理解屏幕内容、跨应用行动并自然写作。",
+      "verified": true,
+      "verifiedAt": "2026-10-26T20:54:30Z",
+      "publishedAt": "2026-10-26T19:24:11.000Z",
+      "originalText": "Day 22/ Terra is back! \n\nOur first model that is significantly better at writing,  personality and nuanced understanding of requests.\n\nPacks a punch across the board, very good at computer use, and gives 2X more usage than 6.1 Sol across API and subscriptions.",
+      "quotedText": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. https://t.co/8JTN1yonmV",
+      "sources": [
+        "https://x.com/thsottiaux/status/2114800277677092936",
+        "https://x.com/OpenAI/status/2114780711664398349"
+      ],
+      "titleEn": "Terra is back: better writing and personality, 2X usage vs Sol",
+      "summaryEn": "Day 22 ships GPT-6.1 Terra — stronger writing, personality, and nuanced request understanding, strong computer use, and 2X usage vs 6.1 Sol on API and subscriptions. The quoted OpenAI post says Terra delivers fast, capable computer use at a lower price."
     }
   ],
   "excludedIds": [
