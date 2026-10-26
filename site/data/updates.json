@@ -8,8 +8,8 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-26T20:53:31.062988+00:00",
-  "lastSuccessfulCheckAt": "2026-10-26T20:53:31.062988+00:00",
+  "checkedAt": "2026-10-26T20:54:58.782655+00:00",
+  "lastSuccessfulCheckAt": "2026-10-26T20:54:58.782655+00:00",
   "posts": [
     {
       "id": "2114800277677092936",
@@ -17,21 +17,25 @@
       "day": 22,
       "subDay": null,
       "kind": "update",
-      "title": "Day 22 · 新更新",
-      "summary": "自动收录的原帖线索，中文摘要待核对。",
-      "verified": false,
-      "publishedAt": "2026-10-26T19:24:11.000000Z",
-      "originalText": "Day 22/ Terra is back! Our first model that is significantly better at writing, personality and nuanced understanding of requests. Packs a punch across the board, very good at computer use, and gives 2X more usage than 6.1 Sol across API and subscriptions.",
-      "quotedText": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. https://t.co/8JTN1yonmV",
+      "title": "Terra 回来了：写作、个性与细腻理解更强，用量翻倍",
+      "summary": "Tibo 宣布第 22 天推出 GPT-6.1 Terra：写作、个性和对请求的细腻理解明显更好，computer use 很强，API 与订阅用量均为 6.1 Sol 的 2 倍。引用的 OpenAI 帖称 Terra 以更低价格提供快速能干的 computer use，能理解屏幕内容、跨应用行动并自然写作。",
+      "verified": true,
+      "publishedAt": "2026-10-26T19:24:11.000Z",
+      "originalText": "Day 22/ Terra is back! \n\nOur first model that is significantly better at writing,  personality and nuanced understanding of requests.\n\nPacks a punch across the board, very good at computer use, and gives 2X more usage than 6.1 Sol across API and subscriptions.",
+      "quotedText": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. https://t.co/8JTN1yonmV",
       "sources": [
-        "https://x.com/thsottiaux/status/2114800277677092936"
+        "https://x.com/thsottiaux/status/2114800277677092936",
+        "https://x.com/OpenAI/status/2114780711664398349"
       ],
       "firstSeenAt": "2026-10-26T19:56:26.487661+00:00",
       "discoveredVia": [
         "codex_resets",
         "tibo_live"
       ],
-      "mirrorFingerprint": "fcc95184680a0a9359e155e1d95f9ba7179cd1f487fa64cd668587e45cad87f3"
+      "mirrorFingerprint": "fcc95184680a0a9359e155e1d95f9ba7179cd1f487fa64cd668587e45cad87f3",
+      "verifiedAt": "2026-10-26T20:54:30Z",
+      "titleEn": "Terra is back: better writing and personality, 2X usage vs Sol",
+      "summaryEn": "Day 22 ships GPT-6.1 Terra — stronger writing, personality, and nuanced request understanding, strong computer use, and 2X usage vs 6.1 Sol on API and subscriptions. The quoted OpenAI post says Terra delivers fast, capable computer use at a lower price."
     },
     {
       "id": "2114588174249071102",
@@ -1114,8 +1118,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-26T20:51:01.407Z",
-      "checkedAt": "2026-10-26T20:53:31.062988+00:00",
-      "lastSuccessAt": "2026-10-26T20:53:31.062988+00:00",
+      "checkedAt": "2026-10-26T20:54:58.782655+00:00",
+      "lastSuccessAt": "2026-10-26T20:54:58.782655+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -1123,16 +1127,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-26T20:53:31.062988+00:00",
-      "lastSuccessAt": "2026-10-26T20:53:31.062988+00:00"
+      "checkedAt": "2026-10-26T20:54:58.782655+00:00",
+      "lastSuccessAt": "2026-10-26T20:54:58.782655+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-26T20:53:31.062988+00:00",
-      "lastSuccessAt": "2026-10-26T20:53:31.062988+00:00"
+      "checkedAt": "2026-10-26T20:54:58.782655+00:00",
+      "lastSuccessAt": "2026-10-26T20:54:58.782655+00:00"
     }
   },
   "campaignFinished": false
