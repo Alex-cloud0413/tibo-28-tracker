@@ -8,9 +8,32 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-28T02:55:14.035324+00:00",
-  "lastSuccessfulCheckAt": "2026-10-28T02:55:14.035324+00:00",
+  "checkedAt": "2026-10-28T02:57:39.225508+00:00",
+  "lastSuccessfulCheckAt": "2026-10-28T02:57:39.225508+00:00",
   "posts": [
+    {
+      "id": "2115273064481218829",
+      "url": "https://x.com/thsottiaux/status/2115273064481218829",
+      "day": 23,
+      "subDay": null,
+      "kind": "reset",
+      "title": "催了很久的 iCloud 插件，其实是重置",
+      "summary": "Tibo 开玩笑说第 23 天是大家催了很久的 iCloud Mail 和 Calendar 插件，随即说明今天其实是重置；引用的 ChatGPT 帖宣布这两款插件已在 ChatGPT 上线，网页、桌面和 iOS 全方案可用。",
+      "verified": true,
+      "verifiedAt": "2026-10-28T02:57:16Z",
+      "publishedAt": "2026-10-28T02:42:53.000Z",
+      "originalText": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+      "quotedText": "Much requested, and now yours to connect: iCloud Mail and Calendar plugins are available in ChatGPT.\n\nAsk ChatGPT to find that email, catch up on your inbox, check what’s next, or update a calendar event. Phew.\n\nAvailable on all ChatGPT plans on web, desktop, and iOS. https://t.co/g68OWoFVg8",
+      "sources": [
+        "https://x.com/thsottiaux/status/2115273064481218829",
+        "https://x.com/ChatGPT/status/2115139248458191070"
+      ],
+      "titleEn": "Much-requested iCloud plugins — kidding, today is a reset",
+      "summaryEn": "Tibo joked that Day 23 was the much-requested iCloud Mail and Calendar plugins, then clarified it is a reset; the quoted ChatGPT post announces those plugins are available in ChatGPT on web, desktop, and iOS for all plans.",
+      "discoveredVia": [
+        "codex_resets"
+      ]
+    },
     {
       "id": "2114800277677092936",
       "url": "https://x.com/thsottiaux/status/2114800277677092936",
@@ -1082,11 +1105,6 @@
   ],
   "candidates": [
     {
-      "id": "2115273064481218829",
-      "url": "https://x.com/thsottiaux/status/2115273064481218829",
-      "firstSeenAt": "2026-10-28T02:55:14.035324+00:00"
-    },
-    {
       "id": "2111249810502353152",
       "url": "https://x.com/thsottiaux/status/2111249810502353152",
       "firstSeenAt": "2026-10-17T00:28:32.395442+00:00"
@@ -1123,8 +1141,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-10-28T02:51:11.181Z",
-      "checkedAt": "2026-10-28T02:55:14.035324+00:00",
-      "lastSuccessAt": "2026-10-28T02:55:14.035324+00:00",
+      "checkedAt": "2026-10-28T02:57:39.225508+00:00",
+      "lastSuccessAt": "2026-10-28T02:57:39.225508+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -1132,16 +1150,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-28T02:55:14.035324+00:00",
-      "lastSuccessAt": "2026-10-28T02:55:14.035324+00:00"
+      "checkedAt": "2026-10-28T02:57:39.225508+00:00",
+      "lastSuccessAt": "2026-10-28T02:57:39.225508+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-28T02:55:14.035324+00:00",
-      "lastSuccessAt": "2026-10-28T02:55:14.035324+00:00"
+      "checkedAt": "2026-10-28T02:57:39.225508+00:00",
+      "lastSuccessAt": "2026-10-28T02:57:39.225508+00:00"
     }
   },
   "campaignFinished": false
