@@ -768,6 +768,26 @@
       ],
       "titleEn": "Terra is back: better writing and personality, 2X usage vs Sol",
       "summaryEn": "Day 22 ships GPT-6.1 Terra — stronger writing, personality, and nuanced request understanding, strong computer use, and 2X usage vs 6.1 Sol on API and subscriptions. The quoted OpenAI post says Terra delivers fast, capable computer use at a lower price."
+    },
+    {
+      "id": "2115273064481218829",
+      "url": "https://x.com/thsottiaux/status/2115273064481218829",
+      "day": 23,
+      "subDay": null,
+      "kind": "reset",
+      "title": "催了很久的 iCloud 插件，其实是重置",
+      "summary": "Tibo 开玩笑说第 23 天是大家催了很久的 iCloud Mail 和 Calendar 插件，随即说明今天其实是重置；引用的 ChatGPT 帖宣布这两款插件已在 ChatGPT 上线，网页、桌面和 iOS 全方案可用。",
+      "verified": true,
+      "verifiedAt": "2026-10-28T02:57:16Z",
+      "publishedAt": "2026-10-28T02:42:53.000Z",
+      "originalText": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+      "quotedText": "Much requested, and now yours to connect: iCloud Mail and Calendar plugins are available in ChatGPT.\n\nAsk ChatGPT to find that email, catch up on your inbox, check what’s next, or update a calendar event. Phew.\n\nAvailable on all ChatGPT plans on web, desktop, and iOS. https://t.co/g68OWoFVg8",
+      "sources": [
+        "https://x.com/thsottiaux/status/2115273064481218829",
+        "https://x.com/ChatGPT/status/2115139248458191070"
+      ],
+      "titleEn": "Much-requested iCloud plugins — kidding, today is a reset",
+      "summaryEn": "Tibo joked that Day 23 was the much-requested iCloud Mail and Calendar plugins, then clarified it is a reset; the quoted ChatGPT post announces those plugins are available in ChatGPT on web, desktop, and iOS for all plans."
     }
   ],
   "excludedIds": [
