@@ -808,6 +808,25 @@
       ],
       "titleEn": "Text your dot just like anyone else",
       "summaryEn": "Day 24: text your dot like anyone else — easy to share/forward, leave voice notes, or Siri-hand off wild requests. Quoted ChatGPT post: by popular request you can text your dot with tasks or watch items via text, photos, or voice notes; it texts you proactively; safe via iMessage or RCS (visible text truncates at “You’re the only one who”)."
+    },
+    {
+      "id": "2115850175868727621",
+      "url": "https://x.com/thsottiaux/status/2115850175868727621",
+      "day": 25,
+      "subDay": null,
+      "kind": "update",
+      "title": "全线 Pro / Business Premium 用量翻倍",
+      "summary": "Tibo 宣布第 25 天：所有 Pro 100/200/500 档位以及 Business Premium 的用量上限翻倍，即日起生效；不会削减 Pro 200 的用量，Work 与 Codex 保持不变；dots 扩展额度暂时继续，且与默认用量分开计算；并会继续推出更好模型与效率改进以提升有效用量。",
+      "verified": true,
+      "verifiedAt": "2026-10-29T19:00:32Z",
+      "publishedAt": "2026-10-29T16:56:07.000Z",
+      "originalText": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2115850175868727621"
+      ],
+      "titleEn": "Usage limits doubled for Pro and Business Premium",
+      "summaryEn": "Day 25: usage limits doubled for all Pro 100/200/500 tiers and Business Premium, effective today; Pro 200 Work and Codex limits stay the same (no reduction); extended dots limits continue for now and remain separate from default usage; better models and efficiency improvements will keep raising effective usage."
     }
   ],
   "excludedIds": [
