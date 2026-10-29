@@ -8,9 +8,30 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-29T16:57:51.143621+00:00",
-  "lastSuccessfulCheckAt": "2026-10-29T16:57:51.143621+00:00",
+  "checkedAt": "2026-10-29T18:59:02.677926+00:00",
+  "lastSuccessfulCheckAt": "2026-10-29T18:59:02.677926+00:00",
   "posts": [
+    {
+      "id": "2115850175868727621",
+      "url": "https://x.com/thsottiaux/status/2115850175868727621",
+      "day": 25,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 25 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-10-29T16:56:07.000000Z",
+      "originalText": "Day 25/ We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today. We heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage. And we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time.",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2115850175868727621"
+      ],
+      "firstSeenAt": "2026-10-29T18:59:02.677926+00:00",
+      "discoveredVia": [
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "f922a854bc37d18ec10153d110d1e57fcccc5a1d77b0116cf8debc303c611b0c"
+    },
     {
       "id": "2115622002581188681",
       "url": "https://x.com/thsottiaux/status/2115622002581188681",
@@ -1168,9 +1189,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-29T16:51:05.685Z",
-      "checkedAt": "2026-10-29T16:57:51.143621+00:00",
-      "lastSuccessAt": "2026-10-29T16:57:51.143621+00:00",
+      "sourceFetchedAt": "2026-10-29T18:51:01.593Z",
+      "checkedAt": "2026-10-29T18:59:02.677926+00:00",
+      "lastSuccessAt": "2026-10-29T18:59:02.677926+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -1178,16 +1199,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-29T16:57:51.143621+00:00",
-      "lastSuccessAt": "2026-10-29T16:57:51.143621+00:00"
+      "checkedAt": "2026-10-29T18:59:02.677926+00:00",
+      "lastSuccessAt": "2026-10-29T18:59:02.677926+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-29T16:57:51.143621+00:00",
-      "lastSuccessAt": "2026-10-29T16:57:51.143621+00:00"
+      "checkedAt": "2026-10-29T18:59:02.677926+00:00",
+      "lastSuccessAt": "2026-10-29T18:59:02.677926+00:00"
     }
   },
   "campaignFinished": false
