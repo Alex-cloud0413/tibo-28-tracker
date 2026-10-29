@@ -788,6 +788,26 @@
       ],
       "titleEn": "Much-requested iCloud plugins — kidding, today is a reset",
       "summaryEn": "Tibo joked that Day 23 was the much-requested iCloud Mail and Calendar plugins, then clarified it is a reset; the quoted ChatGPT post announces those plugins are available in ChatGPT on web, desktop, and iOS for all plans."
+    },
+    {
+      "id": "2115622002581188681",
+      "url": "https://x.com/thsottiaux/status/2115622002581188681",
+      "day": 24,
+      "subDay": null,
+      "kind": "update",
+      "title": "像发短信一样给你的 dot 发消息",
+      "summary": "Tibo 宣布第 24 天：可以像给任何人发短信一样给你的 dot 发消息，方便分享/转发、留语音备忘，或用「Hey Siri, text Iggy to …」这类方式把任务交给它。引用的 ChatGPT 帖称应大家要求现已支持给 dot 发短信，可用文字、照片或语音备忘布置任务或盯着事情，它会主动发短信带回更新；经 iMessage 或 RCS 安全发送（可见正文在「只有你」处截断）。",
+      "verified": true,
+      "verifiedAt": "2026-10-29T03:01:02Z",
+      "publishedAt": "2026-10-29T01:49:26.000Z",
+      "originalText": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to <INSERT WILD REQUEST>\" and sit back and relax.",
+      "quotedText": "By popular request, you can now text your dot.\n\nGive it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates.\n\nSafe, secure texting via iMessage or RCS. You’re the only one who",
+      "sources": [
+        "https://x.com/thsottiaux/status/2115622002581188681",
+        "https://x.com/ChatGPT/status/2115496387613786374"
+      ],
+      "titleEn": "Text your dot just like anyone else",
+      "summaryEn": "Day 24: text your dot like anyone else — easy to share/forward, leave voice notes, or Siri-hand off wild requests. Quoted ChatGPT post: by popular request you can text your dot with tasks or watch items via text, photos, or voice notes; it texts you proactively; safe via iMessage or RCS (visible text truncates at “You’re the only one who”)."
     }
   ],
   "excludedIds": [
