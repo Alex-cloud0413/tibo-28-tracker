@@ -8,9 +8,31 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-10-31T05:39:01.614106+00:00",
-  "lastSuccessfulCheckAt": "2026-10-31T05:39:01.614106+00:00",
+  "checkedAt": "2026-10-31T06:59:01.832682+00:00",
+  "lastSuccessfulCheckAt": "2026-10-31T06:59:01.832682+00:00",
   "posts": [
+    {
+      "id": "2116405414921384099",
+      "url": "https://x.com/thsottiaux/status/2116405414921384099",
+      "day": 26,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 26 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-10-31T05:42:26.000000Z",
+      "originalText": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀. https://t.co/iQxsqbuk0f",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2116405414921384099"
+      ],
+      "firstSeenAt": "2026-10-31T06:59:01.832682+00:00",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "f1089be1339deb2c2ddf2fad297647cb79f3bdab2fb92559fc4ef4f0edb06c23"
+    },
     {
       "id": "2115850175868727621",
       "url": "https://x.com/thsottiaux/status/2115850175868727621",
@@ -1193,9 +1215,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-10-31T05:30:57.343Z",
-      "checkedAt": "2026-10-31T05:39:01.614106+00:00",
-      "lastSuccessAt": "2026-10-31T05:39:01.614106+00:00",
+      "sourceFetchedAt": "2026-10-31T06:51:01.800Z",
+      "checkedAt": "2026-10-31T06:59:01.832682+00:00",
+      "lastSuccessAt": "2026-10-31T06:59:01.832682+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -1203,16 +1225,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-31T05:39:01.614106+00:00",
-      "lastSuccessAt": "2026-10-31T05:39:01.614106+00:00"
+      "checkedAt": "2026-10-31T06:59:01.832682+00:00",
+      "lastSuccessAt": "2026-10-31T06:59:01.832682+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-10-31T05:39:01.614106+00:00",
-      "lastSuccessAt": "2026-10-31T05:39:01.614106+00:00"
+      "checkedAt": "2026-10-31T06:59:01.832682+00:00",
+      "lastSuccessAt": "2026-10-31T06:59:01.832682+00:00"
     }
   },
   "campaignFinished": false
