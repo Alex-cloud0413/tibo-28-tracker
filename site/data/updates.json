@@ -8,9 +8,33 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-11-01T00:56:18.226704+00:00",
-  "lastSuccessfulCheckAt": "2026-11-01T00:56:18.226704+00:00",
+  "checkedAt": "2026-11-01T00:58:33.033688+00:00",
+  "lastSuccessfulCheckAt": "2026-11-01T00:58:33.033688+00:00",
   "posts": [
+    {
+      "id": "2116692529970311254",
+      "url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "day": 27,
+      "subDay": null,
+      "kind": "reset",
+      "title": "储备重置 1/2",
+      "summary": "Tibo 发帖「已储存 1/2」。结合第 26 天「接下来两天会是 resets……已经攒好了」的预告，这是两次储备重置中的第一次。原帖未写 Day 标签，也未说明套餐范围或重置窗口。",
+      "verified": true,
+      "verifiedAt": "2026-11-01T00:58:14Z",
+      "publishedAt": "2026-11-01T00:43:20.000Z",
+      "originalText": "Banked 1/2",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2116692529970311254"
+      ],
+      "titleEn": "Banked reset 1/2",
+      "summaryEn": "Tibo posted \"Banked 1/2\". Together with the Day 26 note that the next two days would be banked resets, this is the first of those two. The post had no Day label and did not specify eligible plans or reset windows.",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "9817b7153d67c8f808c6e5846df538814e24edf3a905b0a033bbd8e4f69bb2cc"
+    },
     {
       "id": "2116405414921384099",
       "url": "https://x.com/thsottiaux/status/2116405414921384099",
@@ -1183,11 +1207,6 @@
   ],
   "candidates": [
     {
-      "id": "2116692529970311254",
-      "url": "https://x.com/thsottiaux/status/2116692529970311254",
-      "firstSeenAt": "2026-11-01T00:56:18.226704+00:00"
-    },
-    {
       "id": "2111249810502353152",
       "url": "https://x.com/thsottiaux/status/2111249810502353152",
       "firstSeenAt": "2026-10-17T00:28:32.395442+00:00"
@@ -1224,8 +1243,8 @@
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
       "sourceFetchedAt": "2026-11-01T00:51:07.096Z",
-      "checkedAt": "2026-11-01T00:56:18.226704+00:00",
-      "lastSuccessAt": "2026-11-01T00:56:18.226704+00:00",
+      "checkedAt": "2026-11-01T00:58:33.033688+00:00",
+      "lastSuccessAt": "2026-11-01T00:58:33.033688+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -1233,16 +1252,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-11-01T00:56:18.226704+00:00",
-      "lastSuccessAt": "2026-11-01T00:56:18.226704+00:00"
+      "checkedAt": "2026-11-01T00:58:33.033688+00:00",
+      "lastSuccessAt": "2026-11-01T00:58:33.033688+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-11-01T00:56:18.226704+00:00",
-      "lastSuccessAt": "2026-11-01T00:56:18.226704+00:00"
+      "checkedAt": "2026-11-01T00:58:33.033688+00:00",
+      "lastSuccessAt": "2026-11-01T00:58:33.033688+00:00"
     }
   },
   "campaignFinished": false
