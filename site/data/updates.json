@@ -8,9 +8,31 @@
     "stopAfter": "2026-11-02T16:00:00Z",
     "intervalHours": 2
   },
-  "checkedAt": "2026-11-01T22:56:39.277922+00:00",
-  "lastSuccessfulCheckAt": "2026-11-01T22:56:39.277922+00:00",
+  "checkedAt": "2026-11-01T23:35:06.377796+00:00",
+  "lastSuccessfulCheckAt": "2026-11-01T23:35:06.377796+00:00",
   "posts": [
+    {
+      "id": "2117035794678546764",
+      "url": "https://x.com/thsottiaux/status/2117035794678546764",
+      "day": 28,
+      "subDay": null,
+      "kind": "update",
+      "title": "Day 28 · 新更新",
+      "summary": "自动收录的原帖线索，中文摘要待核对。",
+      "verified": false,
+      "publishedAt": "2026-11-01T23:27:20.000000Z",
+      "originalText": "Day 28/ Banked 2/2",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2117035794678546764"
+      ],
+      "firstSeenAt": "2026-11-01T23:35:06.377796+00:00",
+      "discoveredVia": [
+        "codex_resets",
+        "tibo_live"
+      ],
+      "mirrorFingerprint": "b6aea8bdc40b3d92bd58875f3a35604d66d171068c11289f238e635bc3873dbc"
+    },
     {
       "id": "2116692529970311254",
       "url": "https://x.com/thsottiaux/status/2116692529970311254",
@@ -1242,9 +1264,9 @@
       "ok": true,
       "name": "Tibo 28 Day Live",
       "url": "https://www.tibo-28day.live/api/live",
-      "sourceFetchedAt": "2026-11-01T22:50:57.166Z",
-      "checkedAt": "2026-11-01T22:56:39.277922+00:00",
-      "lastSuccessAt": "2026-11-01T22:56:39.277922+00:00",
+      "sourceFetchedAt": "2026-11-01T23:31:04.858Z",
+      "checkedAt": "2026-11-01T23:35:06.377796+00:00",
+      "lastSuccessAt": "2026-11-01T23:35:06.377796+00:00",
       "stale": false
     },
     "codex_resets": {
@@ -1252,16 +1274,16 @@
       "name": "Codex Resets",
       "url": "https://codex-resets.com/zh-CN/tibo-28",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-11-01T22:56:39.277922+00:00",
-      "lastSuccessAt": "2026-11-01T22:56:39.277922+00:00"
+      "checkedAt": "2026-11-01T23:35:06.377796+00:00",
+      "lastSuccessAt": "2026-11-01T23:35:06.377796+00:00"
     },
     "resetalerts": {
       "ok": true,
       "name": "Reset Alerts",
       "url": "https://resetalerts.com/codex-28-day-challenge",
       "sourceFetchedAt": null,
-      "checkedAt": "2026-11-01T22:56:39.277922+00:00",
-      "lastSuccessAt": "2026-11-01T22:56:39.277922+00:00"
+      "checkedAt": "2026-11-01T23:35:06.377796+00:00",
+      "lastSuccessAt": "2026-11-01T23:35:06.377796+00:00"
     }
   },
   "campaignFinished": false
