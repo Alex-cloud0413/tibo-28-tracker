@@ -865,6 +865,25 @@
       ],
       "titleEn": "Banked reset 1/2",
       "summaryEn": "Tibo posted \"Banked 1/2\". Together with the Day 26 note that the next two days would be banked resets, this is the first of those two. The post had no Day label and did not specify eligible plans or reset windows."
+    },
+    {
+      "id": "2117035794678546764",
+      "url": "https://x.com/thsottiaux/status/2117035794678546764",
+      "day": 28,
+      "subDay": null,
+      "kind": "reset",
+      "title": "储备重置 2/2",
+      "summary": "Tibo 发帖「Day 28/ Banked 2/2」。结合第 26 天「接下来两天会是 resets……已经攒好了」与第 27 天「Banked 1/2」，这是两次储备重置中的第二次，也是挑战最后一天。原帖未说明套餐范围或重置窗口。",
+      "verified": true,
+      "verifiedAt": "2026-11-02T00:57:26Z",
+      "publishedAt": "2026-11-01T23:27:20.000Z",
+      "originalText": "Day 28/ Banked 2/2",
+      "quotedText": "",
+      "sources": [
+        "https://x.com/thsottiaux/status/2117035794678546764"
+      ],
+      "titleEn": "Banked reset 2/2",
+      "summaryEn": "Tibo posted \"Day 28/ Banked 2/2\". Together with Day 26's note that the next two days would be banked resets and Day 27's \"Banked 1/2\", this is the second of those two and the final day of the challenge. The post did not specify eligible plans or reset windows."
     }
   ],
   "excludedIds": [
